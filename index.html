@@ -552,7 +552,7 @@ section[id]{scroll-margin-top:96px}
     @media(max-width:620px){
       .desktop-phrase{display:none!important}.mobile-phrase{display:inline!important}
       .header .nav{min-height:66px}.brand img{width:46px;height:46px}.links{top:66px}
-      .hero-copy{display:grid;grid-template-areas:"title" "motor" "description" "benefits" "action";justify-items:stretch;gap:12px;padding:14px 0 20px;min-height:0}
+      .hero-copy{display:grid;grid-template-areas:"title" "motor" "divider" "description" "benefits" "action";justify-items:stretch;gap:12px;padding:14px 0 20px;min-height:0}
       .hero .eyebrow{display:none!important}
       .hero h1{grid-area:title;font-size:clamp(1.9rem,8.4vw,2.75rem);margin:0;line-height:1.08;letter-spacing:-.045em}
       .hero h1 .mobile-phrase{display:block!important;margin-top:3px;color:var(--yellow)}
@@ -572,6 +572,13 @@ section[id]{scroll-margin-top:96px}
       .hero-note{font-size:.69rem;gap:3px}
       .hero-actions .btn:first-child{min-height:44px}
     }
+
+    .hero-divider{display:none}
+    @media(max-width:620px){
+      .hero-copy{row-gap:10px}
+      .hero-divider{display:block;grid-area:divider;width:min(72%,260px);height:4px;margin:-2px auto 2px;background:linear-gradient(90deg,var(--yellow) 0 76%,transparent 76% 81%,var(--yellow) 81% 100%);clip-path:polygon(0 0,100% 0,98% 100%,0 100%)}
+    }
+    @media(max-width:620px) and (max-height:680px){.hero-copy{row-gap:8px}}
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"LocalBusiness","name":"Ferreira Motores","description":"Manutenção, rebobinagem e comércio de motores elétricos e componentes.","telephone":"+55 31 99423-1451","address":{"@type":"PostalAddress","streetAddress":"Av. Raul Teixeira da Costa Sobrinho, 1618","addressLocality":"Santa Luzia","addressRegion":"MG","postalCode":"33010-360","addressCountry":"BR"},"areaServed":"Santa Luzia e Região Metropolitana de Belo Horizonte","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"16:00"}]}
@@ -595,6 +602,7 @@ section[id]{scroll-margin-top:96px}
       <p>Rebobinagem, manutenção preventiva e soluções em motores elétricos, motobombas e componentes para Santa Luzia e Região Metropolitana de Belo Horizonte.</p>
       <div class="hero-actions"><a class="btn" href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Preciso%20de%20um%20or%C3%A7amento%20para%20um%20equipamento.%20Posso%20enviar%20fotos%20e%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener"><span class="desktop-phrase">Falar com a equipe →</span><span class="mobile-phrase">Quero falar com a equipe →</span></a><a class="btn ghost" href="#servicos">Conhecer soluções</a></div>
       <img class="hero-machine" fetchpriority="high" src="assets/nova/motor-hero-clean.webp" alt="" width="1100" height="773" aria-hidden="true">
+      <div class="hero-divider" aria-hidden="true"></div>
       <div class="hero-note"><span><i>✓</i> Avaliação técnica</span><span><i>✓</i> Produtos novos e revisados</span><span><i>✓</i> Retirada e entrega</span></div>
     </div></section>
 
