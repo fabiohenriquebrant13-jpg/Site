@@ -40,85 +40,56 @@
       .service-feature:before{inset:0 0 auto;height:258px;background:var(--bg) center/contain no-repeat;background-color:var(--yellow);transform:none!important}
       .service-feature h3{font-size:1.7rem;margin:0 0 10px}.service-feature p{font-size:.94rem}
     }
+    /* Identidade industrial, com navegação e leitura mais leves. */
+    :root{--paper:#f7f6f2;--radius:18px;--line:#e1e0d9;--shadow:0 16px 40px rgba(17,19,21,.08)}
     body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+    .wrap{width:min(1180px,calc(100% - 48px))}
+    h2,h3{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;text-transform:none;letter-spacing:-.045em;line-height:1.12}
+    h2{font-size:clamp(2rem,4.3vw,3.65rem);font-weight:750}
+    .section{padding:88px 0}.section-head{margin-bottom:36px}.section-head p{line-height:1.7}
+    .eyebrow{font-size:.7rem;letter-spacing:.15em;color:#695000}.eyebrow:before{width:22px}
+    .header{position:sticky;top:0;background:#ffc400;color:#111;border-bottom:1px solid rgba(17,19,21,.12);backdrop-filter:none}
+    .nav{min-height:90px;gap:20px}.brand{gap:12px}.brand img{width:62px;height:62px;border:0;box-shadow:none}
+    .brand span{font-size:.95rem;letter-spacing:-.02em}.brand small{color:#403200;font-size:.6rem;letter-spacing:.12em}
+    .links{gap:20px;font-size:.84rem}.links>a:not(.btn):hover{color:#514000}.header .btn{background:#111;border-color:#111;color:#fff;min-height:44px;padding:0 16px}
+    .hamb{color:#111;min-width:44px;min-height:44px;cursor:pointer}
+    .btn{min-height:52px;border-radius:9px;font-size:.94rem;padding:0 22px;transition:transform .2s,box-shadow .2s}
+    .hero{min-height:650px;background:#111315;position:relative;isolation:isolate;overflow:hidden}
+    .hero:before{content:"";position:absolute;z-index:-1;right:5%;top:12%;width:40%;height:76%;border:1px solid rgba(255,196,0,.3);border-radius:50%;background:radial-gradient(ellipse,rgba(255,196,0,.12),transparent 68%)}
+    .hero:after{content:"";position:absolute;z-index:-1;right:10%;top:20%;width:30%;height:60%;border:1px solid rgba(255,196,0,.15);border-radius:50%;background:none}
+    .hero-copy{padding:86px 0;max-width:none;z-index:2}.hero-copy>*{max-width:570px}
+    .hero .eyebrow{color:#e2dfd4}.hero h1{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;text-transform:none;font-size:clamp(3.2rem,5.2vw,5rem);font-weight:750;line-height:1.02;letter-spacing:-.06em;margin:22px 0}
+    .hero h1 span{display:inline-block;margin-top:5px}.hero p{font-size:1.06rem;line-height:1.7;color:#c4c7c9;max-width:490px}
+    .hero-machine{position:absolute;z-index:1;right:0;bottom:12%;width:min(49vw,740px);height:auto;pointer-events:none;filter:drop-shadow(0 25px 30px rgba(0,0,0,.4))}
+    .hero-actions{margin-top:28px;gap:12px}.hero-note{margin-top:28px;gap:16px;font-size:.76rem;color:#c5c8ca}.hero-note i{width:18px;height:18px;background:transparent;color:var(--yellow)}
+    .trust{background:#eeeae0;padding:24px 0;border-bottom:1px solid var(--line)}.trust-item{padding:4px 24px;border-color:#d4d0c5}.trust-item:first-child{padding-left:0}.trust-item b{font-size:.91rem}.trust-item span{color:#62615c;font-size:.78rem}
+    .audience{background:var(--paper);padding:66px 0}.audience-grid{gap:42px}.audience h2{font-size:clamp(1.8rem,3vw,2.5rem)}.audience-card{padding:24px 18px;border-radius:12px;box-shadow:none}.audience-card b{font-size:.94rem}
+    .service-feature{border-radius:16px;min-height:350px;padding:28px}.service-feature h3{font-size:1.65rem;letter-spacing:-.035em}.service-feature p{font-size:.94rem}
+    .service-card{border-radius:14px;padding:26px;background:#faf9f6;min-height:225px}.service-card .num{color:#806000;font-size:.75rem;letter-spacing:.09em}.service-card h3{font-size:1.25rem;letter-spacing:-.025em;margin:23px 0 12px}
+    .section-cta{margin-top:28px;border-radius:14px;padding:26px 28px}.section-cta span{opacity:1;color:#493b0e;display:block;margin-top:5px}.dark-cta span{color:#c4c7c9}
+    .products{background:#141719}.products .eyebrow{color:var(--yellow)}.products .section-head p{color:#bdc1c4}.product{border-radius:14px;background:#1d2124;border-color:#363a3d}.product img{height:225px;padding:20px;background:#f6f5f1}.product-copy{padding:25px}.product h3{font-size:1.35rem;letter-spacing:-.025em}.product p{line-height:1.65}.product a{font-size:.86rem}.brands{border-radius:12px;padding:24px}.brand-list span{font-size:.8rem;padding:6px 13px}.brand-disclaimer{display:block;margin-top:14px;color:#b5b8ba;font-size:.75rem}
+    .consult{background:#ffc400}.consult .eyebrow{color:#4a3b00}.consult h2{font-size:clamp(2rem,3.7vw,3.1rem)}.consult p{color:#423500;line-height:1.7}.specs{margin-top:24px}.spec{font-size:.9rem;border-radius:8px;background:rgba(255,255,255,.48)}
+    .about-grid{gap:64px}.about-media img{height:500px;border-radius:16px}.about-badge{right:-16px;bottom:26px;padding:17px 22px;border-radius:10px}.about p{font-size:1rem;line-height:1.8}.checks{margin-top:26px;gap:20px}.check i{width:24px;height:24px;flex-basis:24px;font-size:.8rem}
+    .gallery{background:#eeeae0}.gallery-grid img{border-radius:10px}.gallery-note{font-size:.82rem}.step{padding:24px 18px;border-radius:0 0 10px 10px}.step strong{font-size:1.75rem;color:#806000}.step h3{font-size:1.08rem;letter-spacing:-.02em;line-height:1.2}
+    .faq{background:var(--paper)}.faq-list{max-width:900px}.faq details{border-radius:10px}.faq summary{font-size:.98rem;padding-top:22px;padding-bottom:22px}.faq details[open]{border-color:#bfa22f}.faq details p{line-height:1.75;font-size:.94rem}
+    .contact{background:#141719}.contact .eyebrow{color:var(--yellow)}.contact h2{max-width:490px}.contact-copy>p{line-height:1.7}.address{border-radius:0 10px 10px 0;font-size:.94rem}.contact-card{border-radius:10px}.contact-card.primary{border-color:var(--yellow)}.contact-card a{font-size:.91rem}.hours{line-height:1.75}.map-box{margin-top:20px;border-radius:12px;overflow:hidden;border:1px solid #3b3e41;background:#202326}.map-box iframe{width:100%;height:250px;border:0;display:block}.directions{margin-top:14px}.directions .btn{min-height:46px}
+    footer{padding:26px 0 90px}.floating{width:56px;height:56px;right:20px;bottom:20px}
+    section[id]{scroll-margin-top:112px}
     a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #005fcc;outline-offset:4px;border-radius:5px}
-    @media(min-width:621px){.hero{background-image:linear-gradient(90deg,rgba(8,9,9,.98) 0%,rgba(8,9,9,.92) 48%,rgba(8,9,9,.58) 78%,rgba(8,9,9,.16) 100%),url('assets/nova/head.webp')}}
-    .service-card .num,.step strong{color:#806000}.brand-disclaimer{display:block;margin-top:14px;color:#aaa;font-size:.78rem}.contact-card.primary{border-color:var(--yellow);box-shadow:0 0 0 1px rgba(255,196,0,.25)}
-    .map-box{margin-top:20px;border-radius:14px;overflow:hidden;border:1px solid #3b3e41;background:#202326}.map-box iframe{width:100%;height:250px;border:0;display:block}.directions{margin-top:14px}.directions .btn{min-height:46px}
-    /* Topo inspirado em uma apresentação industrial editorial */
-    .header{position:absolute;top:18px;left:16px;right:16px;width:auto;border:1px solid rgba(255,255,255,.1);border-radius:20px;background:rgba(12,14,16,.88);box-shadow:0 18px 50px rgba(0,0,0,.28)}
-    .nav{min-height:86px;padding:0 24px}.brand img{width:64px;height:64px}.hero{margin:16px;border-radius:28px;min-height:780px;background:#111315!important;isolation:isolate;align-items:center}.hero:before{content:"";position:absolute;z-index:-1;right:17%;top:13%;width:25%;height:72%;border-radius:4px;background:linear-gradient(180deg,#ffd132,var(--yellow));box-shadow:0 0 80px rgba(255,196,0,.12)}.hero:after{display:none}.hero-machine{position:absolute;z-index:1;right:1%;bottom:-2%;width:min(62vw,980px);height:auto;filter:drop-shadow(0 35px 38px rgba(0,0,0,.55));pointer-events:none}.hero-copy{z-index:2;max-width:none;padding:170px 0 110px}.hero-copy>*{max-width:610px}.hero h1{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:clamp(3.5rem,6.5vw,6.5rem);font-weight:650;letter-spacing:-.065em;text-transform:none;line-height:.92}.hero h1 span{display:inline-block;margin-top:10px}.hero .eyebrow{color:#e9e9e9}.hero-note{position:absolute;left:0;bottom:50px;border-left:3px solid var(--yellow);padding-left:16px}
-    @media(max-width:900px){.header{top:10px;left:10px;right:10px}.nav{padding:0 16px}.hero{margin:8px;min-height:900px;border-radius:22px;align-items:flex-start}.hero:before{right:8%;top:auto;bottom:6%;width:47%;height:42%}.hero-machine{right:-12%;bottom:2%;width:94vw}.hero-copy{padding:145px 0 390px}.hero-copy>*{max-width:650px}.hero-note{position:static;border-left:0;padding-left:0}.links{top:86px;border-radius:0 0 16px 16px}}
-    @media(max-width:620px){footer{padding-bottom:104px}.map-box iframe{height:220px}.header{border-radius:15px}.nav{min-height:76px}.brand img{width:54px;height:54px}.hero{min-height:880px}.hero-copy{padding:125px 0 360px}.hero h1{font-size:clamp(2.85rem,14vw,4.35rem)}.hero p{font-size:1rem}.hero:before{right:7%;bottom:5%;width:52%;height:35%}.hero-machine{width:110vw;right:-23%;bottom:4%}.hero-actions{margin-top:24px}.hero-note{margin-top:22px}.links{top:76px}}
-    .header{border:0}.hero:before{right:17%;width:24%}.hero-machine{right:0;width:min(58vw,920px);opacity:.97;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,.38) 0%,rgba(0,0,0,.82) 24%,#000 48%,#000 100%);mask-image:linear-gradient(90deg,rgba(0,0,0,.38) 0%,rgba(0,0,0,.82) 24%,#000 48%,#000 100%)}
-    @media(max-width:900px){.hero:before{right:23%;width:24%}.hero-machine{right:0;width:70vw;bottom:3%}}
-    @media(max-width:620px){.hero{min-height:850px}.hero-copy{padding-bottom:330px}.hero:before{right:28%;bottom:5%;width:30%;height:34%}.hero-machine{right:0;bottom:5%;width:86vw;max-width:none}}
-    @media(max-width:620px){
-      .hero{margin:0;min-height:760px;border-radius:0 0 22px 22px;overflow:hidden}
-      .hero-copy{min-height:760px;padding:118px 0 255px}
-      .hero-copy>*{max-width:100%}
-      .hero .eyebrow{font-size:.62rem;letter-spacing:.1em}
-      .hero h1{font-size:clamp(2.45rem,11vw,3.15rem);line-height:.94;letter-spacing:-.055em;margin:15px 0}
-      .hero h1 span{margin-top:5px}
-      .hero p{font-size:.9rem;line-height:1.48;max-width:96%}
-      .hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:19px}
-      .hero .btn{width:auto;min-height:46px;padding:0 10px;font-size:.77rem;text-align:center}
-      .hero-note{position:absolute;left:0;right:auto;bottom:24px;width:45%;display:grid;gap:9px;margin:0;padding:12px 0 12px 12px;border-left:3px solid var(--yellow);font-size:.68rem;line-height:1.25;z-index:3}
-      .hero-note span{gap:6px}.hero-note i{width:18px;height:18px;flex:0 0 18px;font-size:.68rem}
-      .hero:before{right:20%;bottom:4%;width:28%;height:34%}
-      .hero-machine{right:0;bottom:4%;width:68vw;max-width:none}
+    .skip-link{position:fixed;top:8px;left:8px;z-index:100;padding:12px 18px;background:#fff;color:#111;border:2px solid #111;border-radius:8px;font-weight:700;transform:translateY(-160%)}.skip-link:focus{transform:translateY(0)}
+    @media(max-width:1100px) and (min-width:901px){.links{gap:12px;font-size:.78rem}.brand span{font-size:.8rem}.hero-copy>*{max-width:50%}.hero h1{font-size:3.6rem}}
+    @media(max-width:900px){
+      .nav{min-height:80px}.links{top:80px;background:#ffc400;color:#111;padding:22px 24px;border-top:1px solid rgba(17,19,21,.16);box-shadow:0 18px 25px rgba(0,0,0,.15);gap:4px}.links>a{padding:12px;border-radius:6px}.links .btn{margin-top:10px}.brand img{width:58px;height:58px}
+      .hero{min-height:620px;background:#111315}.hero-copy{padding:65px 0 310px}.hero-copy>*{max-width:640px}.hero h1{font-size:3.65rem}.hero p{max-width:550px}.hero-machine{width:390px;right:5%;bottom:20px}.hero:before{width:330px;height:330px;right:5%;top:auto;bottom:-40px}.hero:after{display:none}.hero-note{position:static}
+      .section{padding:70px 0}.audience-grid{gap:26px}.about-grid{gap:38px}.about-media img{height:430px}.about-badge{right:16px}.contact-grid{gap:32px}.steps{grid-template-columns:repeat(2,1fr)}.steps .step:last-child{grid-column:1/-1}
     }
     @media(max-width:620px){
-      .hero{min-height:760px;background:linear-gradient(180deg,#111315 0%,#111315 56%,#17130d 100%)!important}
-      .hero-copy{min-height:760px;padding:148px 0 110px}
-      .hero .eyebrow,.hero>div>p,.hero-note{display:none}
-      .hero h1{max-width:310px;margin:0;padding-left:18px;border-left:3px solid var(--yellow);font-size:clamp(2.55rem,12vw,3.25rem);font-style:italic;font-weight:750;line-height:.93;letter-spacing:-.055em}
-      .hero h1 span{margin-top:6px}
-      .hero:before{display:none}
-      .hero:after{content:"";display:block;position:absolute;z-index:0;left:3%;right:3%;bottom:82px;width:auto;height:390px;border:0;border-radius:50%;background:radial-gradient(circle at 54% 58%,rgba(255,196,0,.34),rgba(255,196,0,.1) 38%,transparent 72%)}
-      .hero-machine{z-index:1;right:0;bottom:94px;width:100vw;max-width:none;opacity:1;-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.78),#000 18%,#000 82%,rgba(0,0,0,.86));mask-image:linear-gradient(180deg,rgba(0,0,0,.78),#000 18%,#000 82%,rgba(0,0,0,.86))}
-      .hero-actions{position:absolute;z-index:4;left:0;right:0;bottom:22px;display:block;margin:0}
-      .hero-actions .btn:first-child{display:flex;width:100%;min-height:58px;border-radius:30px;font-size:.95rem}
-      .hero-actions .btn.ghost{display:none}
-    }
-    @media(max-width:620px){
-      .hero-copy{padding-top:112px}
-      .hero:before{content:"";display:block;position:absolute;z-index:0;right:-105px;left:auto;top:auto;bottom:138px;width:300px;height:300px;border:38px solid rgba(255,196,0,.18);border-radius:50%;background:transparent;box-shadow:0 0 52px rgba(255,196,0,.08)}
-    }
-    /* Topo compacto: todas as informações essenciais na primeira tela */
-    .header{top:0;left:0;right:0;border-radius:0;background:var(--yellow);color:#111;box-shadow:0 8px 30px rgba(0,0,0,.2)}
-    .brand small{color:#111}.brand img{border-color:#111;box-shadow:none}.links>a:not(.btn):hover{color:#5b4300}.header .btn{background:#111;border-color:#111;color:#fff}.hamb{color:#111}
-    .hero{margin:0;border-radius:0;height:100svh;min-height:680px;max-height:820px}
-    .hero-copy{padding:126px 0 46px}.hero h1{font-size:clamp(3.2rem,5.4vw,5.35rem)}.hero p{font-size:1.02rem;max-width:610px}.hero-actions{margin-top:22px}.hero-note{position:static;margin-top:20px;padding-left:14px;border-left:3px solid var(--yellow)}
-    .hero:before{top:15%;height:66%}.hero-machine{bottom:5%;width:min(51vw,800px)}
-    @media(max-width:900px){.links{background:var(--yellow);color:#111}.hero{height:auto;max-height:none;min-height:760px}.hero-copy{padding-top:110px}.hero-machine{bottom:7%}}
-    @media(max-width:620px){
-      .header{top:0;left:0;right:0;border-radius:0}.nav{min-height:72px}.links{top:72px}
-      .hero{height:100svh;min-height:680px;max-height:760px}
-      .hero-copy{min-height:100%;padding-top:92px}
-      .hero h1{font-size:clamp(2.25rem,10.8vw,2.9rem);max-width:285px}
-      .hero-machine{bottom:80px;width:92vw}
-      .hero-actions{bottom:14px}.hero-actions .btn:first-child{min-height:54px}
-      .hero:after{bottom:68px;height:340px}
-      .hero:before{bottom:118px}
-    }
-    @media(min-width:621px){.hero:before{z-index:0;top:0;bottom:0;height:100%;border-radius:0}.hero-machine{z-index:1}.hero-copy{z-index:2}}
-    @media(min-width:621px){.hero-machine{opacity:1;-webkit-mask-image:none;mask-image:none}}
-    .brand img{width:76px;height:76px;border:0;box-shadow:none}
-    @media(max-width:620px){.brand img{width:66px;height:66px;border:0}.nav{min-height:78px}.links{top:78px}}
-    @media(max-width:620px){
-      .hero:before{display:none!important}
-      .hero-copy{padding-top:94px}
-      .hero h1{width:100%;max-width:none;margin:0;padding:0;border:0;text-align:center;font-size:clamp(2.25rem,10.5vw,2.85rem);line-height:.94}
-      .hero-machine{top:35%;right:4%;bottom:auto;width:92vw}
-      .hero-note{display:grid!important;grid-template-columns:1fr;gap:4px;left:0;right:0;top:auto;bottom:82px;width:100%;margin:0;padding:7px 0;border:0;text-align:center;font-size:.74rem;background:rgba(17,19,21,.72);backdrop-filter:blur(4px)}
-      .hero-note span{justify-content:center}.hero-note i{background:transparent;color:var(--yellow);font-size:1rem}
-      .hero-actions{bottom:14px}
-    }
-    @media(max-width:620px){
-      .hero:after{display:none!important}
-      .hero-machine{top:35%;right:7%;bottom:auto;width:86vw;opacity:1;-webkit-mask-image:none;mask-image:none}
-      .hero-note{top:70%;bottom:auto;background:transparent;backdrop-filter:none}
+      .wrap{width:calc(100% - 36px)}.nav{min-height:76px}.brand img{width:52px;height:52px}.brand span{font-size:.83rem}.brand small{font-size:.55rem}.links{top:76px}
+      .hero{min-height:0}.hero-copy{padding:46px 0 295px}.hero h1{font-size:clamp(2.5rem,10.5vw,3.7rem);line-height:1.04;margin:20px 0}.hero p{font-size:.94rem;line-height:1.7}.hero .eyebrow{font-size:.62rem;letter-spacing:.11em}.hero-actions{display:flex;gap:10px;margin-top:24px}.hero .btn{width:100%;min-height:50px;font-size:.9rem}.hero .btn.ghost{background:transparent;border-color:#666b6e}.hero-note{display:grid;gap:8px;margin-top:22px;font-size:.75rem}.hero-machine{width:300px;max-width:94%;right:3%;bottom:22px}.hero:before{width:260px;height:260px;right:4%;bottom:-10px}
+      .section{padding:58px 0}.section-head{margin-bottom:28px}.section-head h2{margin:12px 0 16px}.section-head p{font-size:.96rem}h2{font-size:2.15rem}.trust{padding:18px 0}.trust-grid{grid-template-columns:1fr 1fr;gap:0}.trust-item,.trust-item:first-child{padding:12px 10px;border:0}.trust-item b{font-size:.85rem}.trust-item span{font-size:.72rem}.trust-item:nth-child(odd){border-right:1px solid #d4d0c5}
+      .audience{padding:48px 0}.audience-cards{grid-template-columns:1fr;gap:10px}.audience-card{padding:20px}.audience h2{font-size:2rem}
+      .service-feature{min-height:360px;padding:240px 22px 24px;justify-content:flex-start;background:#17191b}.service-feature:before{inset:0 0 auto;height:222px;background:var(--bg) center/contain no-repeat;background-color:var(--yellow);transform:none}.service-feature h3{font-size:1.4rem;margin:0 0 12px}.service-feature p{font-size:.91rem}
+      .service-card{min-height:0;padding:24px}.service-card h3{margin:16px 0 10px}.section-cta{padding:24px;gap:20px}.section-cta b{font-size:1rem}.section-cta span{font-size:.85rem}.product img{height:240px}.consult-grid{gap:30px}.consult h2{font-size:2.1rem}.about-media img{height:380px}.about-badge{font-size:.88rem}.gallery-grid img{min-width:84%;height:290px}.steps{grid-template-columns:1fr}.step{padding:22px}.step h3{margin:12px 0 10px}.faq details{padding:0 17px}.faq summary{font-size:.92rem;line-height:1.5}.contact-card{flex-direction:row;align-items:center;gap:12px;padding:18px}.contact-card b{font-size:.96rem}.contact-card a{font-size:.83rem}.contact-card span{font-size:.68rem}.map-box iframe{height:220px}.floating{width:52px;height:52px;right:16px;bottom:16px}.footer-row{gap:12px}section[id]{scroll-margin-top:96px}
     }
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
   </style>
@@ -130,14 +101,15 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="header"><nav class="nav wrap" aria-label="Navegação principal">
     <a class="brand" href="#inicio"><img src="assets/logo-160.webp" alt="Logo Ferreira Motores" width="160" height="160"><span>FERREIRA MOTORES<small>MOTORES ELÉTRICOS</small></span></a>
     <div class="links" id="menu"><a href="#servicos">Serviços</a><a href="#produtos">Produtos</a><a href="#empresa">A empresa</a><a href="#trabalhos">Trabalhos</a><a href="#contato">Contato</a><a class="btn" href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Encontrei%20a%20Ferreira%20Motores%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">Solicitar orçamento</a></div>
-    <button class="hamb" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
+    <button type="button" class="hamb" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
   </nav></header>
 
-  <main>
-    <section class="hero" id="inicio"><img class="hero-machine" src="assets/nova/motor-hero-clean.webp" alt="" width="1100" height="773" aria-hidden="true"><div class="wrap hero-copy">
+  <main id="conteudo" tabindex="-1">
+    <section class="hero" id="inicio"><img class="hero-machine" fetchpriority="high" src="assets/nova/motor-hero-clean.webp" alt="" width="1100" height="773" aria-hidden="true"><div class="wrap hero-copy">
       <span class="eyebrow">Motores elétricos em Santa Luzia</span>
       <h1>Seu motor parou?<br><span>A Ferreira Motores resolve.</span></h1>
       <p>Rebobinagem, manutenção preventiva e soluções em motores elétricos, motobombas e componentes para Santa Luzia e Região Metropolitana de Belo Horizonte.</p>
@@ -169,12 +141,12 @@
     <section class="section products" id="produtos"><div class="wrap">
       <header class="section-head"><span class="eyebrow">Precisa de um produto?</span><h2>Equipamentos e peças conforme sua necessidade</h2><p>Trabalhamos com produtos novos e revisados, disponíveis para retirada, entrega ou encomenda. Consulte nossa equipe para verificar as opções.</p></header>
       <div class="product-grid">
-        <article class="product"><img src="assets/nova/motores-eletricos.webp" alt="Motor elétrico" loading="lazy"><div class="product-copy"><h3>Motores elétricos</h3><p>Opções para diferentes potências, tensões e aplicações.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20motores%20el%C3%A9tricos.%20Posso%20enviar%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
-        <article class="product"><img src="assets/nova/motobomba.webp" alt="Motobomba" loading="lazy"><div class="product-copy"><h3>Motobombas</h3><p>Equipamentos e soluções para bombeamento em diferentes aplicações.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20motobombas.%20Posso%20enviar%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
-        <article class="product"><img src="assets/nova/redutores.webp" alt="Redutor" loading="lazy"><div class="product-copy"><h3>Redutores</h3><p>Soluções para transmissão e controle de movimento.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20redutores.%20Posso%20enviar%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
-        <article class="product"><img src="assets/nova/capacitores.webp" alt="Capacitor para motor elétrico" loading="lazy"><div class="product-copy"><h3>Capacitores</h3><p>Componentes para partida e funcionamento de motores elétricos.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Preciso%20de%20um%20capacitor.%20Posso%20enviar%20a%20especifica%C3%A7%C3%A3o%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
-        <article class="product"><img src="assets/nova/rolamentos.webp" alt="Rolamentos" loading="lazy"><div class="product-copy"><h3>Rolamentos</h3><p>Peças para reposição e manutenção de diversos equipamentos.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20verificar%20a%20disponibilidade%20de%20um%20rolamento." target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
-        <article class="product"><img src="assets/nova/pecas-componentes.webp" alt="Peças e componentes para motores" loading="lazy"><div class="product-copy"><h3>Peças e componentes</h3><p>Itens para manutenção e recuperação de motores e motobombas.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Estou%20procurando%20uma%20pe%C3%A7a%20para%20motor.%20Posso%20enviar%20uma%20foto%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
+        <article class="product"><img src="assets/nova/motores-eletricos.webp" alt="Motor elétrico" loading="lazy" width="1400" height="900" decoding="async"><div class="product-copy"><h3>Motores elétricos</h3><p>Opções para diferentes potências, tensões e aplicações.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20motores%20el%C3%A9tricos.%20Posso%20enviar%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
+        <article class="product"><img src="assets/nova/motobomba.webp" alt="Motobomba" loading="lazy" width="1400" height="900" decoding="async"><div class="product-copy"><h3>Motobombas</h3><p>Equipamentos e soluções para bombeamento em diferentes aplicações.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20motobombas.%20Posso%20enviar%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
+        <article class="product"><img src="assets/nova/redutores.webp" alt="Redutor" loading="lazy" width="1400" height="900" decoding="async"><div class="product-copy"><h3>Redutores</h3><p>Soluções para transmissão e controle de movimento.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20redutores.%20Posso%20enviar%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
+        <article class="product"><img src="assets/nova/capacitores.webp" alt="Capacitor para motor elétrico" loading="lazy" width="1400" height="900" decoding="async"><div class="product-copy"><h3>Capacitores</h3><p>Componentes para partida e funcionamento de motores elétricos.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Preciso%20de%20um%20capacitor.%20Posso%20enviar%20a%20especifica%C3%A7%C3%A3o%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
+        <article class="product"><img src="assets/nova/rolamentos.webp" alt="Rolamentos" loading="lazy" width="1400" height="900" decoding="async"><div class="product-copy"><h3>Rolamentos</h3><p>Peças para reposição e manutenção de diversos equipamentos.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Gostaria%20de%20verificar%20a%20disponibilidade%20de%20um%20rolamento." target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
+        <article class="product"><img src="assets/nova/pecas-componentes.webp" alt="Peças e componentes para motores" loading="lazy" width="1400" height="900" decoding="async"><div class="product-copy"><h3>Peças e componentes</h3><p>Itens para manutenção e recuperação de motores e motobombas.</p><a href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Estou%20procurando%20uma%20pe%C3%A7a%20para%20motor.%20Posso%20enviar%20uma%20foto%3F" target="_blank" rel="noopener">Consultar disponibilidade →</a></div></article>
       </div>
       <div class="brands"><small>Marcas comercializadas e atendidas, conforme disponibilidade</small><div class="brand-list"><span>WEG</span><span>Nova</span><span>Hercules</span><span>Voges</span><span>SEW</span><span>Mercosul</span><span>Siemens</span></div><span class="brand-disclaimer">As marcas citadas pertencem aos seus respectivos proprietários. A Ferreira Motores não representa vínculo oficial com os fabricantes.</span></div>
       <div class="section-cta dark-cta"><div><b>Procurando um produto específico?</b><span>Informe a potência, tensão, modelo ou envie uma foto da peça.</span></div><a class="btn" href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Estou%20procurando%20um%20produto%20ou%20componente.%20Posso%20enviar%20uma%20foto%20e%20as%20especifica%C3%A7%C3%B5es%3F" target="_blank" rel="noopener">Consultar agora →</a></div>
@@ -186,11 +158,11 @@
     </div></section>
 
     <section class="section about" id="empresa"><div class="wrap about-grid">
-      <div class="about-media"><img src="assets/IMG-20261003-WA0022.webp" alt="Integrante da equipe Ferreira Motores" loading="lazy"><div class="about-badge">Desde 2016</div></div>
+      <div class="about-media"><img src="assets/IMG-20261003-WA0022.webp" alt="Integrante da equipe Ferreira Motores" loading="lazy" width="1400" height="1054" decoding="async"><div class="about-badge">Desde 2016</div></div>
       <div><span class="eyebrow">Quem somos</span><h2>Experiência, agilidade e qualidade</h2><p>A Ferreira Motores é especializada em manutenção e reparo de motores elétricos, bobinas, bombas e motobombas, atendendo equipamentos de diferentes aplicações.<br><br>Há uma década, atuamos em Santa Luzia, Belo Horizonte e região, oferecendo serviços com experiência, agilidade e qualidade.<br><br>Nossa oficina está preparada para diagnosticar falhas, realizar reparos e recuperar equipamentos.<br><br>Nosso trabalho une experiência prática, diagnóstico responsável e atendimento próximo, buscando sempre a solução mais adequada para cada equipamento e cada necessidade.</p><div class="checks"><div class="check"><i>✓</i><div><b>Avaliação antes da intervenção</b><span>Entenda o problema e o serviço indicado antes de aprovar.</span></div></div><div class="check"><i>✓</i><div><b>Serviços realizados pela própria equipe</b><span>As imagens do site mostram equipamentos reparados pela Ferreira Motores.</span></div></div><div class="check"><i>✓</i><div><b>Atendimento simples e direto</b><span>Envie fotos e especificações diretamente pelo WhatsApp.</span></div></div></div></div>
     </div></section>
 
-    <section class="section gallery" id="trabalhos"><div class="wrap"><header class="section-head"><span class="eyebrow">Trabalhos realizados</span><h2>Equipamentos que passaram por nossas mãos</h2><p>Registros reais de motores e equipamentos reparados pela equipe da Ferreira Motores.</p></header><div class="gallery-grid"><img src="assets/IMG-20261003-WA0021.webp" alt="Usinagem de eixo em execução" loading="lazy"><img src="assets/IMG-20261003-WA0009.webp" alt="Motor após serviço de recuperação" loading="lazy"><img src="assets/IMG-20261003-WA0025.webp" alt="Motor reparado" loading="lazy"><img src="assets/IMG-20261003-WA0005.webp" alt="Motor elétrico reparado" loading="lazy"><img src="assets/IMG-20261003-WA0026-nova.webp" alt="Motor elétrico vermelho reparado" loading="lazy"></div><p class="gallery-note">Imagens de equipamentos reparados pela empresa. Modelos, cores e marcas variam conforme o serviço.</p></div></section>
+    <section class="section gallery" id="trabalhos"><div class="wrap"><header class="section-head"><span class="eyebrow">Trabalhos realizados</span><h2>Equipamentos que passaram por nossas mãos</h2><p>Registros reais de motores e equipamentos reparados pela equipe da Ferreira Motores.</p></header><div class="gallery-grid"><img src="assets/IMG-20261003-WA0021.webp" alt="Usinagem de eixo em execução" loading="lazy" width="1400" height="1054" decoding="async"><img src="assets/IMG-20261003-WA0009.webp" alt="Motor após serviço de recuperação" loading="lazy" width="1400" height="1054" decoding="async"><img src="assets/IMG-20261003-WA0025.webp" alt="Motor reparado" loading="lazy" width="1400" height="1054" decoding="async"><img src="assets/IMG-20261003-WA0005.webp" alt="Motor elétrico reparado" loading="lazy" width="1400" height="1054" decoding="async"><img src="assets/IMG-20261003-WA0026-nova.webp" alt="Motor elétrico vermelho reparado" loading="lazy" width="1600" height="1204" decoding="async"></div><p class="gallery-note">Imagens de equipamentos reparados pela empresa. Modelos, cores e marcas variam conforme o serviço.</p></div></section>
 
     <section class="section process" id="processo"><div class="wrap"><header class="section-head"><span class="eyebrow">Como funciona</span><h2>Do primeiro contato à entrega</h2></header><div class="steps"><article class="step"><strong>01</strong><h3>Recebemos sua solicitação</h3><p>Compartilhe fotos, modelo, potência, tensão e o defeito observado.</p></article><article class="step"><strong>02</strong><h3>Avaliação</h3><p>A equipe analisa a necessidade e orienta sobre os próximos passos.</p></article><article class="step"><strong>03</strong><h3>Orçamento</h3><p>Você recebe as informações do serviço antes da execução.</p></article><article class="step"><strong>04</strong><h3>Execução</h3><p>O trabalho é iniciado após a aprovação do orçamento.</p></article><article class="step"><strong>05</strong><h3>Retirada ou entrega</h3><p>Combinamos a melhor forma de devolver o equipamento.</p></article></div></div></section>
 
@@ -206,9 +178,18 @@
   <a class="floating" href="https://wa.me/5531994231451?text=Ol%C3%A1%21%20Encontrei%20a%20Ferreira%20Motores%20pelo%20site." target="_blank" rel="noopener" aria-label="Falar com a Ferreira Motores pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.5 11.7a8.5 8.5 0 0 1-12.56 7.46L3 20.5l1.32-4.8A8.5 8.5 0 1 1 20.5 11.7Zm-8.48-6.9a6.87 6.87 0 0 0-5.84 10.5l.2.31-.78 2.84 2.91-.76.3.18a6.88 6.88 0 1 0 3.21-13.07Zm-3.26 3.1c.16-.36.33-.37.59-.38h.32c.11 0 .29.04.44.38.16.38.55 1.33.6 1.43.05.1.08.21.02.33-.06.12-.09.2-.19.3-.1.11-.2.24-.29.32-.1.1-.2.2-.08.4.12.19.53.87 1.13 1.4.78.7 1.44.91 1.64 1.01.2.1.31.08.42-.05.12-.14.5-.59.64-.8.13-.19.26-.16.45-.09.18.06 1.16.54 1.35.64.2.1.33.15.38.23.05.08.05.47-.1.91-.15.45-.88.85-1.2.91-.31.06-.7.08-1.14-.06-.27-.08-.62-.2-1.07-.39-.46-.2-2.03-.75-3.42-2.62-.39-.53-.65-1.13-.72-1.33-.07-.2-.76-1.84.08-2.86Z"/></svg></a>
   <script>
     const btn=document.querySelector('.hamb'),menu=document.querySelector('#menu');
-    btn.addEventListener('click',()=>{const open=menu.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));btn.textContent=open?'×':'☰'});
-    menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.textContent='☰'}));
-    document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.classList.contains('open')){menu.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.textContent='☰';btn.focus()}});
+    function setMenu(open){
+      menu.classList.toggle('open',open);
+      btn.setAttribute('aria-expanded',String(open));
+      btn.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');
+      btn.textContent=open?'×':'☰';
+    }
+    btn.addEventListener('click',()=>setMenu(!menu.classList.contains('open')));
+    menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+    document.addEventListener('keydown',event=>{
+      if(event.key==='Escape'&&menu.classList.contains('open')){setMenu(false);btn.focus()}
+    });
+    window.matchMedia('(max-width:900px)').addEventListener('change',()=>setMenu(false));
   </script>
 </body>
 </html>
