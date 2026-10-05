@@ -612,6 +612,41 @@ section[id]{scroll-margin-top:96px}
       if(event.key==='Escape'&&menu.classList.contains('open')){setMenu(false);btn.focus()}
     });
     window.matchMedia('(max-width:900px)').addEventListener('change',()=>setMenu(false));
+
+    // Entrada suave ao rolar, sem esconder conteúdo quando JavaScript não está disponível.
+    (()=>{
+      const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
+      if(motion.matches||!('IntersectionObserver' in window)||!Element.prototype.animate)return;
+      const running=new Map();
+      const observer=new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+          if(!entry.isIntersecting)return;
+          const element=entry.target;
+          observer.unobserve(element);
+          if(motion.matches||element.contains(document.activeElement))return;
+          const siblings=[...element.parentElement.children];
+          const stagger=Math.min(siblings.indexOf(element),3)*60;
+          const animation=element.animate([
+            {opacity:1,transform:'translateY(22px)'},
+            {opacity:1,transform:'translateY(0)'}
+          ],{duration:560,delay:stagger,easing:'cubic-bezier(.22,1,.36,1)'});
+          running.set(element,animation);
+          const cleanup=()=>running.delete(element);
+          animation.addEventListener('finish',cleanup,{once:true});
+          animation.addEventListener('cancel',cleanup,{once:true});
+        });
+      },{threshold:0.08});
+      document.querySelectorAll('.section-head,.audience-grid>div,.service-feature,.service-card,.product,.section-cta,.consult-grid>div,.about-grid>div,.gallery-grid img,.step,.faq details,.contact-copy,.contact-card').forEach(element=>observer.observe(element));
+      document.addEventListener('focusin',event=>{
+        running.forEach((animation,element)=>{if(element.contains(event.target))animation.cancel()});
+      });
+      motion.addEventListener('change',()=>{
+        if(!motion.matches)return;
+        observer.disconnect();
+        running.forEach(animation=>animation.cancel());
+        running.clear();
+      });
+    })();
   </script>
 </body>
 </html>
