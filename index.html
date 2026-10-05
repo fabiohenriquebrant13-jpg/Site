@@ -625,18 +625,18 @@ section[id]{scroll-margin-top:96px}
           observer.unobserve(element);
           if(motion.matches||element.contains(document.activeElement))return;
           const siblings=[...element.parentElement.children];
-          const stagger=Math.min(siblings.indexOf(element),3)*60;
+          const stagger=Math.min(siblings.indexOf(element),3)*100;
           const animation=element.animate([
-            {opacity:1,transform:'translateY(22px)'},
+            {opacity:0,transform:'translateY(56px)'},
             {opacity:1,transform:'translateY(0)'}
-          ],{duration:560,delay:stagger,easing:'cubic-bezier(.22,1,.36,1)'});
+          ],{duration:900,delay:stagger,fill:'backwards',easing:'cubic-bezier(.22,1,.36,1)'});
           running.set(element,animation);
           const cleanup=()=>running.delete(element);
           animation.addEventListener('finish',cleanup,{once:true});
           animation.addEventListener('cancel',cleanup,{once:true});
         });
       },{threshold:0.08});
-      document.querySelectorAll('.section-head,.audience-grid>div,.service-feature,.service-card,.product,.section-cta,.consult-grid>div,.about-grid>div,.gallery-grid img,.step,.faq details,.contact-copy,.contact-card').forEach(element=>observer.observe(element));
+      document.querySelectorAll('.hero h1,.hero-machine,.hero-actions,.hero-note,.section-head,.audience-grid>div,.service-feature,.service-card,.product,.section-cta,.consult-grid>div,.about-grid>div,.gallery-grid img,.step,.faq details,.contact-copy,.contact-card').forEach(element=>observer.observe(element));
       document.addEventListener('focusin',event=>{
         running.forEach((animation,element)=>{if(element.contains(event.target))animation.cancel()});
       });
