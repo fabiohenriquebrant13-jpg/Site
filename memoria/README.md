@@ -132,3 +132,10 @@ posicionamento no Google nem aprovação de versões posteriores.
 - A pedido do usuário, removidos o resumo de horários do início da página, seu CSS e o atalho Horários do menu.
 - Mantido o quadro amarelo com os horários atuais apenas na seção Fale conosco, nas duas versões HTML. Esta decisão substitui a inclusão do resumo superior.
 - Chromium/Playwright em 375, 768 e 1440 pixels, nos dois arquivos: um único título de horários em contato, ausência de resumo superior, quadro sem transbordamento, imagens, âncoras, menu móvel e FAQ funcionando, sem erros JavaScript.
+
+## Tabela amarela como último bloco
+
+- Horários aparecem uma única vez, em tabela com fundo amarelo como último bloco de Fale conosco, depois do mapa e de todos os contatos, imediatamente antes do rodapé.
+- Tabela ocupa a largura da seção no computador e se adapta ao celular. Nenhum resumo ou atalho de horários no início.
+- Duas versões HTML atualizadas; horários comerciais preservados.
+- Chromium/Playwright em 375, 768 e 1440 pixels nos dois arquivos: verificados unicidade, posição final, fundo amarelo, três linhas, largura, âncoras, imagens, menu móvel e FAQ; sem erros JavaScript.
