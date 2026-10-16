@@ -126,3 +126,9 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Horários comerciais mantidos. Quadro de horários na seção de contato preservado.
 - Chromium/Playwright: posição, visibilidade, navegação e ausência de transbordamento do resumo e do menu em 375, 768, 901, 1024 e 1440 pixels, nos dois arquivos.
 - Revalidados imagens, âncoras, FAQ, menu móvel e ausência de erros JavaScript em 375, 768 e 1440 pixels, nos dois arquivos.
+
+## Horários somente em Fale conosco
+
+- A pedido do usuário, removidos o resumo de horários do início da página, seu CSS e o atalho Horários do menu.
+- Mantido o quadro amarelo com os horários atuais apenas na seção Fale conosco, nas duas versões HTML. Esta decisão substitui a inclusão do resumo superior.
+- Chromium/Playwright em 375, 768 e 1440 pixels, nos dois arquivos: um único título de horários em contato, ausência de resumo superior, quadro sem transbordamento, imagens, âncoras, menu móvel e FAQ funcionando, sem erros JavaScript.
