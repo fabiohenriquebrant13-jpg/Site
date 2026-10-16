@@ -139,3 +139,13 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Tabela ocupa a largura da seção no computador e se adapta ao celular. Nenhum resumo ou atalho de horários no início.
 - Duas versões HTML atualizadas; horários comerciais preservados.
 - Chromium/Playwright em 375, 768 e 1440 pixels nos dois arquivos: verificados unicidade, posição final, fundo amarelo, três linhas, largura, âncoras, imagens, menu móvel e FAQ; sem erros JavaScript.
+
+## ZIP pronto para Hostinger
+
+- Atualizado Ferreira-Motores-Site-v2.zip com o index.html atual e todos os arquivos de assets/, sem pasta intermediária.
+- Pacote com 32 arquivos; arquivos do ZIP com permissões 0644. Não inclui Git, instruções internas ou HTML independente duplicado.
+- Horários apenas na tabela amarela ao final de Fale conosco e Instagram mantido.
+- Verificados integridade ZIP, igualdade com os fontes e HTTP 200 da página e de 19 recursos locais, incluindo fundos CSS.
+- Conteúdo extraído validado em Chromium/Playwright em 375, 768 e 1440 pixels: tabela única amarela ao final, imagens, âncoras, menu e FAQ.
+- Para instalar: enviar o ZIP ao public_html do domínio na Hostinger e extrair ali; index.html e assets/ devem ficar diretamente nessa pasta. Salvar uma cópia dos arquivos anteriores antes de substituí-los. Não exige npm ou build.
+- Upload e validação no domínio da Hostinger ainda não realizados.
