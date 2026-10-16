@@ -118,3 +118,11 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Atualizadas as duas versões HTML.
 - Verificadas em Chromium com Playwright nas larguras 375, 768 e 1440: quadro sem transbordamento, imagens, âncoras, menu móvel (abertura, Escape e navegação), FAQ e ausência de erros JavaScript.
 - Destinos de contato conferidos no HTML; serviços externos não acessados nos testes.
+
+## Horários visíveis no início da página
+
+- Incluído resumo dos horários logo após a apresentação e a faixa de destaques, nas duas versões HTML.
+- No computador: três cartões lado a lado; no celular: linhas empilhadas. Adicionado link Horários ao menu.
+- Horários comerciais mantidos. Quadro de horários na seção de contato preservado.
+- Chromium/Playwright: posição, visibilidade, navegação e ausência de transbordamento do resumo e do menu em 375, 768, 901, 1024 e 1440 pixels, nos dois arquivos.
+- Revalidados imagens, âncoras, FAQ, menu móvel e ausência de erros JavaScript em 375, 768 e 1440 pixels, nos dois arquivos.
