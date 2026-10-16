@@ -103,3 +103,10 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Confirmar a publicação e testar o endereço público.
 - Fazer revisão manual de acessibilidade.
 - Considerar otimização adicional do tamanho das imagens.
+
+## Instagram
+
+- Adicionado o perfil informado pelo usuário: @ferreiramotoresmg.
+- Link na seção de contato das duas versões HTML, abrindo em nova aba.
+- Verificados destino, atributos de segurança e consistência entre as versões.
+- Renderização e interações no navegador não verificadas nesta alteração.
