@@ -110,3 +110,11 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Link na seção de contato das duas versões HTML, abrindo em nova aba.
 - Verificados destino, atributos de segurança e consistência entre as versões.
 - Renderização e interações no navegador não verificadas nesta alteração.
+
+## Destaque dos horários
+
+- Horários da seção de contato em quadro amarelo, com título e linhas separadas por dia.
+- Preservados: segunda a sexta, 8h às 17h; sábado, 9h às 16h; domingo, fechado; aviso sobre urgências.
+- Atualizadas as duas versões HTML.
+- Verificadas em Chromium com Playwright nas larguras 375, 768 e 1440: quadro sem transbordamento, imagens, âncoras, menu móvel (abertura, Escape e navegação), FAQ e ausência de erros JavaScript.
+- Destinos de contato conferidos no HTML; serviços externos não acessados nos testes.
