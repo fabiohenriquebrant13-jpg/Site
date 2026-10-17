@@ -39,7 +39,7 @@ def build(source: Path) -> str:
     html = re.sub(r'<img\b[^>]*>', embed_img, html)
     html = re.sub(r"url\(['\"]?(assets/[^'\")]+)['\"]?\)", embed_css, html)
     html = re.sub(
-        r'(<link\b[^>]*\bhref=")(assets/[^\"]+)(")',
+        r'(<link\b[^>]*\bhref=")((?:assets/[^\"]+|favicon\.ico))(")',
         lambda match: match.group(1) + data_uri(match.group(2)) + match.group(3),
         html,
     )

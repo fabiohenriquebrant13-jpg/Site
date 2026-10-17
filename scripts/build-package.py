@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Monta o ZIP da Hostinger com o HTML atual e somente os assets referenciados."""
+"""Monta o ZIP da Hostinger com as páginas, configuração 404 e recursos locais."""
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -24,23 +24,27 @@ class Assets(HTMLParser):
 
     def add(self, value):
         parsed = urlsplit(value)
-        if not parsed.scheme and not parsed.netloc and parsed.path:
-            self.paths.add(unquote(parsed.path))
+        if not parsed.scheme and not parsed.netloc and parsed.path.strip("/"):
+            self.paths.add(unquote(parsed.path).lstrip("/"))
 
 
 def main():
     root = Path(__file__).resolve().parent.parent
     source = root / "index.html"
-    html = source.read_text(encoding="utf-8")
     parser = Assets()
-    parser.feed(html)
-    for ref in re.findall(r"url\(['\"]?([^'\")]+)['\"]?\)", html):
-        parser.add(ref)
-    files = [source]
+    published = {"index.html", "404.html", ".htaccess", "favicon.ico"}
+    for page in (source, root / "404.html"):
+        html = page.read_text(encoding="utf-8")
+        parser.feed(html)
+        for ref in re.findall(r"url\(['\"]?([^'\")]+)['\"]?\)", html):
+            parser.add(ref)
+    files = [root / name for name in sorted(published)]
     for name in sorted(parser.paths):
         target = (root / name).resolve()
         if not target.is_relative_to((root / "assets").resolve()):
-            raise ValueError(f"Recurso fora de assets/: {name}")
+            if name in published:
+                continue
+            raise ValueError(f"Recurso não publicável: {name}")
         if not target.is_file():
             raise FileNotFoundError(name)
         files.append(target)

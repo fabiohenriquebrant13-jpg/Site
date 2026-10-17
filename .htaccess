@@ -1,0 +1,2 @@
+# Página local: mantém a resposta HTTP 404 e funciona em URLs de qualquer pasta.
+ErrorDocument 404 /404.html

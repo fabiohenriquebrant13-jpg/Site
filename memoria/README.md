@@ -204,3 +204,13 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Chromium/Playwright: 130 verificações funcionais aprovadas nos dois HTMLs em 320, 375, 768 e 1440 pixels. axe-core sem violações automáticas; contraste complexo continua inconclusivo, sem declaração de conformidade completa.
 - README atualizado para distinguir a restauração das medições históricas; Lighthouse não reexecutado nesta alteração.
 - Preservar este tratamento visual de imagens e contraste em futuras melhorias. Alteração destinada à readme-edits; sem merge na main ou upload à Hostinger.
+
+## Página 404 personalizada e favicon para a busca
+
+- Criada 404.html com o logo original, identidade amarela/preta, botões para início e contato, foco visível e noindex. Recursos usam caminhos a partir da raiz para funcionar em URLs inexistentes de subpastas.
+- Incluído .htaccess com ErrorDocument 404 /404.html, sem redirecionar à home; preservar outras regras existentes na instalação.
+- Acrescentados favicon PNG 96 × 96 e ICO com 64/48/32/16 pixels, convertidos do logo existente. O favicon WebP anterior tinha 64 × 64 e já era quadrado: não comprovada a causa de sua ausência no resultado do Google.
+- Sincronizados os dois HTMLs e o ZIP; geradores atualizados para incluir a 404, sua configuração e os ícones. Site principal mantém imagens, contraste, horários e demais decisões aprovadas.
+- ZIP íntegro com 23 arquivos, todos iguais aos fontes. Testados aparência, logo, links, ícones via HTTP, foco e axe-core da 404 no pacote extraído em 375, 768 e 1440 pixels; sem violações automáticas. Revalidados ambos os HTMLs nas mesmas larguras, com 96 verificações funcionais aprovadas; contraste complexo do site principal segue inconclusivo pela ferramenta.
+- README orienta envio ao public_html, preservação do .htaccess anterior, teste de status 404 na hospedagem e solicitação de indexação da página inicial no Search Console. Atualização do favicon no Google depende de rastreamento e seleção do buscador, sem prazo garantido.
+- Acesso ao domínio bloqueado pelo proxy deste ambiente, não um erro comprovado do site. Não validados hospedagem, regra .htaccess em Apache/LiteSpeed, acesso de Googlebot-Image ou Search Console. Sem upload à Hostinger ou alteração da main; trabalho salvo na readme-edits.

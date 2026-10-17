@@ -14,6 +14,42 @@ brasileiro e endereço oficial informado: https://www.ferreiramotores.com.br/.
 - `.agents/skills/`: instruções de desenvolvimento; não fazem parte da publicação.
 - `AGENTS.md` e `memoria/README.md`: regras do projeto e decisões registradas.
 
+## Página 404 e logo no Google
+
+O pacote inclui `404.html`, `.htaccess`, `favicon.ico` e
+`assets/favicon-96x96.png`. Os ícones usam o logo existente, sem redesenho.
+As fotos e o contraste aprovados do site permanecem.
+
+1. Na Hostinger, faça uma cópia dos arquivos atuais de `public_html`.
+2. Extraia o ZIP atualizado diretamente em `public_html`. Confirme a presença
+   de `.htaccess` (pode ser necessário exibir arquivos ocultos).
+   Se já houver um `.htaccess` com outras regras, preserve-o e acrescente somente
+   `ErrorDocument 404 /404.html`, substituindo uma regra 404 anterior se existir.
+3. A configuração se destina ao site na raiz do domínio em hospedagem que aceite
+   `.htaccess` (Apache/LiteSpeed). Se o painel já tiver uma personalização 404,
+   confira a configuração efetiva antes de manter regras concorrentes.
+4. Abra `https://www.ferreiramotores.com.br/endereco-que-nao-existe` e também um
+   endereço inexistente em uma subpasta. Ambos devem exibir o logo e o botão
+   “Voltar ao início”. Em Ferramentas do desenvolvedor → Rede, a resposta da
+   página inexistente deve ser **404**, sem redirecionamento à página inicial.
+5. Confira `https://www.ferreiramotores.com.br/favicon.ico` e
+   `https://www.ferreiramotores.com.br/assets/favicon-96x96.png`: devem abrir
+   sem login, retornar 200 e não ter bloqueio de rastreamento para Googlebot-Image.
+6. No Google Search Console da propriedade do domínio, inspecione
+   `https://www.ferreiramotores.com.br/` e solicite a indexação da página inicial.
+   O Google precisa rastrear novamente a página e o ícone; a mudança pode levar
+   dias ou semanas e sua exibição não é garantida. Mantenha a URL do ícone estável.
+
+O favicon WebP anterior já era quadrado e tinha 64 × 64 pixels; não foi comprovado
+que seu formato ou tamanho causava a ausência na busca. O PNG de 96 × 96 e o ICO
+adicionam alternativas compatíveis. A presença do logo no conteúdo da página ou
+nos metadados sociais, por si só, não define o ícone da busca.
+
+O servidor Python usado para prévia local não interpreta `.htaccess`.
+A aparência e os links da 404 podem ser conferidos abrindo `/404.html`;
+a aplicação da regra e o status HTTP precisam ser validados na hospedagem.
+Não foram alteradas as páginas 400, 401, 403 ou 500.
+
 Para visualizar localmente, da raiz do projeto:
 
 ```bash
