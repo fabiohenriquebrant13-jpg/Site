@@ -5,6 +5,14 @@ históricos desta conversa. Antes de novas alterações, conferir
 o código atual. Não considerar testes antigos como validação
 automática de uma nova versão.
 
+## Preferência permanente de avaliação
+
+- O usuário quer receber avaliações com notas de 0 a 100 por categoria, conforme o que cada skill consegue medir ou avaliar por critérios documentados.
+- Mostrar origem, método, cenário (por exemplo, celular/computador), cobertura e limitações. Usar notas reais de ferramentas ou identificar explicitamente um índice de checklist calculado.
+- Não inventar notas nem tratar itens não executados como aprovados. Usar “não avaliado” quando não houver evidência e indicar notas parciais quando houver verificações pendentes.
+- Em comparações antes/depois, manter o mesmo cenário e os mesmos critérios; não reutilizar notas antigas como medições atuais.
+- Regra registrada também no AGENTS.md e no guia portátil da skill melhorar-html: .agents/skills/melhorar-html/references/avaliacoes.md. A regra se aplica aos relatórios enviados ao usuário, sem adicionar notas à página pública do site.
+
 ## Projeto
 
 - Site institucional em português brasileiro.

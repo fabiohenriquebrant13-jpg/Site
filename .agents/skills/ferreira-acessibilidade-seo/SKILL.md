@@ -56,6 +56,10 @@ Use para auditorias e melhorias de acessibilidade, SEO e desempenho.
   ou funcionamento de serviços externos.
 
 ## Entrega
+
+Nas avaliações, siga o [padrão de notas de 0 a 100](../melhorar-html/references/avaliacoes.md),
+com origem da nota, cenário e limitações. Checklists exigem rubrica e cobertura;
+itens não medidos ficam como “não avaliado”.
 Apresente problemas encontrados, verificações executadas
 e validações manuais pendentes.
 Não envie mensagens de WhatsApp nem publique sem autorização.

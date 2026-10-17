@@ -59,3 +59,6 @@ que um item passou por suposição.
 - Evidência de testes, falhas e limitações explícitas.
 - Branch de destino respeitada; nenhuma publicação inferida de um commit.
 - Cópia local e arquivo publicado distinguidos quando houver downloads.
+
+- Avaliações com notas de 0 a 100 quando fundamentadas, método e cobertura
+  informados; itens não avaliados identificados e notas parciais rotuladas.

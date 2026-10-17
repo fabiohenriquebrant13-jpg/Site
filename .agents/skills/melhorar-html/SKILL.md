@@ -117,6 +117,8 @@ fora das dependências do site quando isso for apropriado.
 - Confira o diff e preserve alterações que não são suas. Faça commit/push na
   branch indicada quando autorizado; publicação, merge e deploy seguem o escopo
   da autorização existente, não acontecem automaticamente por concluir a edição.
+- Nas avaliações solicitadas, use o [padrão de notas de 0 a 100](references/avaliacoes.md),
+  preservando medições reais, critérios, cobertura e resultados não avaliados.
 - Entregue uma descrição curta: o que mudou, por quê, testes executados e limites.
   Distinga arquivo local, commit remoto e site publicado. Ao fornecer um download,
   explique quando é preciso abrir o novo arquivo em vez de uma cópia antiga.

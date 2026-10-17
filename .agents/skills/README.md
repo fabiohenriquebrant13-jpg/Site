@@ -21,6 +21,14 @@ A skill é original e foi criada para este pedido. `Publii-master.zip` e
 `ant-design-landing-master.zip` contêm aplicações/templates, sem `SKILL.md`.
 Esses arquivos foram preservados; seus códigos não foram importados para o site.
 
+## Preferência para avaliações
+
+Apresentar notas de 0 a 100 conforme a medição ou rubrica disponível, com origem,
+cenário, cobertura e limitações. Não inventar notas para verificações não feitas.
+Consulte o [padrão de avaliações](melhorar-html/references/avaliacoes.md), também
+registrado no AGENTS.md e na memória. A referência acompanha a skill quando ela
+é copiada para outros projetos.
+
 ## Skills de SEO
 
 As skills `seo-audit` e `seo-audit-full` foram instaladas a partir do ZIP enviado

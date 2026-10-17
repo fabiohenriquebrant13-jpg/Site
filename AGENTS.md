@@ -35,3 +35,11 @@ Trabalhe no site da Ferreira Motores seguindo estas orientações:
 
 10. Informe o que mudou, o que foi verificado e o que ainda
     precisa de validação. Não publique sem meu pedido.
+
+11. Nas avaliações solicitadas, apresente notas de 0 a 100 por
+    categoria quando houver medição ou rubrica definida pela skill.
+    Identifique ferramenta, método, cenário e cobertura. Preserve
+    notas nativas; para checklists, use um índice calculado com
+    critérios explícitos. Marque itens não medidos como “não avaliado”
+    e notas incompletas como parciais; nunca invente resultados.
+    Siga .agents/skills/melhorar-html/references/avaliacoes.md.
