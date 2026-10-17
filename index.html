@@ -595,6 +595,20 @@ section[id]{scroll-margin-top:96px}
     @media(max-width:620px){.trust-item:nth-child(odd){border-right-color:rgba(17,19,21,.24)}}
     @media(min-width:621px){.hero-copy>.hero-note{position:relative;inset:auto;margin-top:24px}}
 
+
+    /* Mantém texto sobre fundo escuro e reserva a faixa amarela para a imagem. */
+    @media(min-width:621px) and (max-width:1100px){
+      .hero{height:auto;max-height:none;min-height:0;align-items:flex-start}
+      .hero-copy{position:relative;display:flex;flex-direction:column;align-items:flex-start;padding:132px 0 32px}
+      .hero-copy>.hero-machine{position:relative;order:2;align-self:center;inset:auto;width:min(75vw,600px);max-width:100%;height:auto;margin:28px auto 0}
+      .hero-copy>.hero-note{order:1;max-width:100%;margin-top:24px}
+      .hero:before{top:auto;bottom:0;right:22%;width:24%;height:35%;max-height:390px}
+    }
+    @media(min-width:1101px){
+      .hero-copy>h1{max-width:min(50vw,610px)}
+      .hero-copy>p{max-width:min(46vw,560px)}
+      .hero-copy>.hero-note{max-width:min(46vw,610px)}
+    }
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"LocalBusiness","name":"Ferreira Motores","description":"Manutenção, rebobinagem e comércio de motores elétricos e componentes.","telephone":"+55 31 99423-1451","address":{"@type":"PostalAddress","streetAddress":"Av. Raul Teixeira da Costa Sobrinho, 1618","addressLocality":"Santa Luzia","addressRegion":"MG","postalCode":"33010-360","addressCountry":"BR"},"areaServed":"Santa Luzia e Região Metropolitana de Belo Horizonte","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"16:00"}]}

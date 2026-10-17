@@ -5,6 +5,14 @@ históricos desta conversa. Antes de novas alterações, conferir
 o código atual. Não considerar testes antigos como validação
 automática de uma nova versão.
 
+## Preferência permanente de avaliação
+
+- O usuário quer receber avaliações com notas de 0 a 100 por categoria, conforme o que cada skill consegue medir ou avaliar por critérios documentados.
+- Mostrar origem, método, cenário (por exemplo, celular/computador), cobertura e limitações. Usar notas reais de ferramentas ou identificar explicitamente um índice de checklist calculado.
+- Não inventar notas nem tratar itens não executados como aprovados. Usar “não avaliado” quando não houver evidência e indicar notas parciais quando houver verificações pendentes.
+- Em comparações antes/depois, manter o mesmo cenário e os mesmos critérios; não reutilizar notas antigas como medições atuais.
+- Regra registrada também no AGENTS.md e no guia portátil da skill melhorar-html: .agents/skills/melhorar-html/references/avaliacoes.md. A regra se aplica aos relatórios enviados ao usuário, sem adicionar notas à página pública do site.
+
 ## Projeto
 
 - Site institucional em português brasileiro.
@@ -175,3 +183,24 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Publii-master.zip e ant-design-landing-master.zip inspecionados: não contêm SKILL.md. Pacotes preservados; não incorporados ao site nem à skill.
 - Validadas estrutura, frontmatter, referências locais e cópia portátil em ZIP separado. Descoberta em uma nova sessão e execução em outro projeto não foram verificadas.
 - Alterações somente de skill/documentação na readme-edits; HTML, imagens e ZIP de hospedagem preservados.
+
+## Otimizações de imagens e contraste na readme-edits
+
+- Mantidos os originais e criadas 30 variantes WebP responsivas com Sharp 0.35.5. HTML principal com srcset/sizes; imagem principal prioritária.
+- Cartões de serviço com gradiente de proteção do texto; apresentação entre 621 e 1100 pixels separa texto, motor e faixa amarela. Parágrafo limitado no computador para evitar sobreposição.
+- Geradores reproduzíveis para variantes, HTML independente e ZIP publicável em scripts/. Instruções e resultados documentados no README.md geral.
+- HTML independente reduzido em 38%: 1.706.546 → 1.057.241 bytes. ZIP contém 48 arquivos referenciados, sem ferramentas, skills ou relatórios.
+- Lighthouse local, execuções novas: desempenho principal 99/100 celular e 100/100 computador; independente 63/100 celular (antes 57) e 96/100 computador (antes 88). Acessibilidade automática, boas práticas e SEO 100/100 nos quatro cenários.
+- Dados transferidos no principal: redução de 26% no celular e 50% no computador. Medições de laboratório, sem validação da hospedagem ou do file://.
+- Checklist funcional 100/100 calculado, 18/18 critérios, 130 verificações nos dois HTMLs; axe-core sem violações automáticas, com contraste complexo ainda marcado como inconclusivo pela ferramenta. Revisão por amostragem e cálculo conservador dos fundos aplicada, sem declaração de conformidade WCAG completa.
+- Pacote extraído conferido; contatos, identidade visual, dados comerciais e horários somente na tabela amarela ao final preservados. Alterações destinadas à readme-edits, sem merge na main.
+
+## Restauração das imagens e do contraste anteriores
+
+- O usuário esclareceu que preferia as imagens e o contraste da versão anterior, sem desfazer as demais melhorias.
+- Restaurados os 14 elementos de imagem, os dois fundos de serviços e o gradiente exatos do commit b017f6f. Removida a seleção das variantes recomprimidas no HTML; fotografias e logo originais preservados.
+- Mantidos ajustes de layout em tablet/computador, galeria por teclado, metadados, skills, preferência por avaliações fundamentadas e horários somente na tabela amarela final.
+- Regenerados HTML independente e ZIP da Hostinger. Mantida a deduplicação dos fundos incorporados; ZIP com index.html na raiz e somente 19 assets referenciados. Integridade e igualdade dos arquivos do pacote com os fontes conferidas.
+- Chromium/Playwright: 130 verificações funcionais aprovadas nos dois HTMLs em 320, 375, 768 e 1440 pixels. axe-core sem violações automáticas; contraste complexo continua inconclusivo, sem declaração de conformidade completa.
+- README atualizado para distinguir a restauração das medições históricas; Lighthouse não reexecutado nesta alteração.
+- Preservar este tratamento visual de imagens e contraste em futuras melhorias. Alteração destinada à readme-edits; sem merge na main ou upload à Hostinger.
