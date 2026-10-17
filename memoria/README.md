@@ -183,3 +183,14 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Publii-master.zip e ant-design-landing-master.zip inspecionados: não contêm SKILL.md. Pacotes preservados; não incorporados ao site nem à skill.
 - Validadas estrutura, frontmatter, referências locais e cópia portátil em ZIP separado. Descoberta em uma nova sessão e execução em outro projeto não foram verificadas.
 - Alterações somente de skill/documentação na readme-edits; HTML, imagens e ZIP de hospedagem preservados.
+
+## Otimizações de imagens e contraste na readme-edits
+
+- Mantidos os originais e criadas 30 variantes WebP responsivas com Sharp 0.35.5. HTML principal com srcset/sizes; imagem principal prioritária.
+- Cartões de serviço com gradiente de proteção do texto; apresentação entre 621 e 1100 pixels separa texto, motor e faixa amarela. Parágrafo limitado no computador para evitar sobreposição.
+- Geradores reproduzíveis para variantes, HTML independente e ZIP publicável em scripts/. Instruções e resultados documentados no README.md geral.
+- HTML independente reduzido em 38%: 1.706.546 → 1.057.241 bytes. ZIP contém 48 arquivos referenciados, sem ferramentas, skills ou relatórios.
+- Lighthouse local, execuções novas: desempenho principal 99/100 celular e 100/100 computador; independente 63/100 celular (antes 57) e 96/100 computador (antes 88). Acessibilidade automática, boas práticas e SEO 100/100 nos quatro cenários.
+- Dados transferidos no principal: redução de 26% no celular e 50% no computador. Medições de laboratório, sem validação da hospedagem ou do file://.
+- Checklist funcional 100/100 calculado, 18/18 critérios, 130 verificações nos dois HTMLs; axe-core sem violações automáticas, com contraste complexo ainda marcado como inconclusivo pela ferramenta. Revisão por amostragem e cálculo conservador dos fundos aplicada, sem declaração de conformidade WCAG completa.
+- Pacote extraído conferido; contatos, identidade visual, dados comerciais e horários somente na tabela amarela ao final preservados. Alterações destinadas à readme-edits, sem merge na main.

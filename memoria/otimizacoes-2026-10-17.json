@@ -1,0 +1,134 @@
+{
+  "scope": "Validação local via HTTP, sem compressão, serviços externos bloqueados; execução única Lighthouse por cenário.",
+  "before_commit": "b017f6f04f2654907eefe9ca1204fed9fc1baf31",
+  "source_sha256": {
+    "index.html": "6af2998345896ace65e921650d8c3b43393b0e1d642a57c3989cd819a1a7abb4",
+    "ferreira-motores-completo.html": "3ec4dc040f432fad61af78108a22e708ee280668cd60bb976f60ea04f9189ba1",
+    "Ferreira-Motores-Site-v2.zip": "f4e1d49117fe4e9b7880e279e76e0a98f5b8067da34e5d8f332c6da05ecabc84"
+  },
+  "standalone_bytes_before": 1706546,
+  "standalone_bytes_after": 1057241,
+  "functional": {
+    "score_100": 100,
+    "evaluated": 18,
+    "applicable": 18,
+    "browser_cases": 8,
+    "individual_checks": 130,
+    "rubric": "Pesos iguais: pass=1, warn=0.5, fail=0; pior resultado por critério entre cenários aplicáveis.",
+    "axe_violations": 0,
+    "incomplete_rules": [
+      "color-contrast"
+    ]
+  },
+  "contrast_review": "Revisão visual e por amostragem dos fundos estáticos; cálculo conservador do gradiente sobre branco nos cartões em 375, 621, 768, 1024, 1100, 1101, 1440 e 1920 px. Não comprova conformidade WCAG completa.",
+  "lighthouse": {
+    "principal": {
+      "mobile": {
+        "lighthouse_version": "13.5.0",
+        "measured_at": "2026-10-17T17:01:37.751Z",
+        "scores_before": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "scores_after": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "bytes_before": 313039,
+        "bytes_after": 230144,
+        "lcp_before_ms": 2101.7374,
+        "lcp_after_ms": 1801.3667999999998,
+        "warnings": [],
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate"
+      },
+      "desktop": {
+        "lighthouse_version": "13.5.0",
+        "measured_at": "2026-10-17T17:01:49.239Z",
+        "scores_before": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "scores_after": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "bytes_before": 589015,
+        "bytes_after": 293679,
+        "lcp_before_ms": 584.0488,
+        "lcp_after_ms": 482.6612,
+        "warnings": [],
+        "formFactor": "desktop",
+        "throttlingMethod": "simulate"
+      }
+    },
+    "independente": {
+      "mobile": {
+        "lighthouse_version": "13.5.0",
+        "measured_at": "2026-10-17T17:02:00.846Z",
+        "scores_before": {
+          "performance": 57,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "scores_after": {
+          "performance": 63,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "bytes_before": 1706737,
+        "bytes_after": 1057432,
+        "lcp_before_ms": 9127.64045,
+        "lcp_after_ms": 6037.71195,
+        "warnings": [],
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate"
+      },
+      "desktop": {
+        "lighthouse_version": "13.5.0",
+        "measured_at": "2026-10-17T17:02:12.876Z",
+        "scores_before": {
+          "performance": 88,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "scores_after": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "bytes_before": 1706737,
+        "bytes_after": 1057432,
+        "lcp_before_ms": 1576.1731,
+        "lcp_after_ms": 1055.72785,
+        "warnings": [],
+        "formFactor": "desktop",
+        "throttlingMethod": "simulate"
+      }
+    }
+  },
+  "package": {
+    "files": 48,
+    "extracted_viewports": [
+      375,
+      621,
+      1100,
+      1101,
+      1440
+    ],
+    "source_match": true,
+    "skills_and_tools_included": false
+  }
+}
