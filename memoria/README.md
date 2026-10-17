@@ -194,3 +194,13 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Dados transferidos no principal: redução de 26% no celular e 50% no computador. Medições de laboratório, sem validação da hospedagem ou do file://.
 - Checklist funcional 100/100 calculado, 18/18 critérios, 130 verificações nos dois HTMLs; axe-core sem violações automáticas, com contraste complexo ainda marcado como inconclusivo pela ferramenta. Revisão por amostragem e cálculo conservador dos fundos aplicada, sem declaração de conformidade WCAG completa.
 - Pacote extraído conferido; contatos, identidade visual, dados comerciais e horários somente na tabela amarela ao final preservados. Alterações destinadas à readme-edits, sem merge na main.
+
+## Restauração das imagens e do contraste anteriores
+
+- O usuário esclareceu que preferia as imagens e o contraste da versão anterior, sem desfazer as demais melhorias.
+- Restaurados os 14 elementos de imagem, os dois fundos de serviços e o gradiente exatos do commit b017f6f. Removida a seleção das variantes recomprimidas no HTML; fotografias e logo originais preservados.
+- Mantidos ajustes de layout em tablet/computador, galeria por teclado, metadados, skills, preferência por avaliações fundamentadas e horários somente na tabela amarela final.
+- Regenerados HTML independente e ZIP da Hostinger. Mantida a deduplicação dos fundos incorporados; ZIP com index.html na raiz e somente 19 assets referenciados. Integridade e igualdade dos arquivos do pacote com os fontes conferidas.
+- Chromium/Playwright: 130 verificações funcionais aprovadas nos dois HTMLs em 320, 375, 768 e 1440 pixels. axe-core sem violações automáticas; contraste complexo continua inconclusivo, sem declaração de conformidade completa.
+- README atualizado para distinguir a restauração das medições históricas; Lighthouse não reexecutado nesta alteração.
+- Preservar este tratamento visual de imagens e contraste em futuras melhorias. Alteração destinada à readme-edits; sem merge na main ou upload à Hostinger.

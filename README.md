@@ -20,7 +20,32 @@ Para visualizar localmente, da raiz do projeto:
 python3 -m http.server 8000 --directory .
 ```
 
-## Otimizações de imagens e contraste — 17/10/2026
+## Imagens e contraste restaurados — 17/10/2026
+
+A pedido do usuário, as 14 imagens, os dois fundos dos cartões de serviços e o
+respectivo gradiente voltaram à versão anterior às otimizações. O site usa os
+arquivos originais de `assets/`, sem `srcset` das variantes recomprimidas.
+Os ajustes de layout, a galeria por teclado, os metadados e as skills permanecem.
+Os horários continuam somente na tabela amarela ao final de Fale conosco.
+
+As duas versões HTML e o ZIP foram sincronizados. O HTML independente conserva
+a deduplicação dos fundos incorporados; o ZIP inclui somente os 20 arquivos
+referenciados (index e 19 assets). As variantes em `assets/responsive/` e seu
+gerador permanecem disponíveis, mas não são utilizadas na versão restaurada.
+Em futuras otimizações, preserve a qualidade e o contraste visual aprovados.
+
+Validação local: ambos os HTMLs passaram nas 130 verificações funcionais em
+320, 375, 768 e 1440 pixels. O ZIP extraído também foi conferido. A ferramenta
+de acessibilidade não detectou violações automáticas; contraste sobre imagens
+continua exigindo revisão manual.
+
+As notas abaixo pertencem à versão otimizada anterior e **não representam esta
+versão restaurada**. Não foi realizada uma nova medição de Lighthouse.
+
+## Histórico das otimizações anteriores — 17/10/2026
+
+Este registro descreve a versão anterior à restauração acima.
+
 
 - Criadas 30 variantes WebP em `assets/responsive/`, mantendo os originais.
   Os `<img>` da versão publicada usam `srcset` e `sizes` para a seleção adequada
@@ -30,7 +55,7 @@ python3 -m http.server 8000 --directory .
 - Entre 621 e 1100 pixels, o texto da apresentação fica separado do motor e da
   faixa amarela. No computador maior, o parágrafo tem largura limitada para
   evitar contato com a imagem; a composição do celular foi preservada.
-- O HTML independente usa as imagens de fallback otimizadas e compartilha os
+- O HTML independente usava as imagens de fallback otimizadas e compartilha os
   fundos incorporados por variáveis CSS, evitando duplicação de dados.
   Passou de 1.706.546 para 1.057.241 bytes: redução de 38%.
 - O ZIP foi refeito com 48 arquivos necessários à página. A seleção de assets
@@ -87,7 +112,7 @@ O HTML independente é gerado a partir do `index.html`; não edite somente a có
 incorporada. O ZIP deve ser refeito quando uma alteração aprovada precisar ser
 levada à hospedagem.
 
-Para recriar variantes de imagens, use Node.js compatível e Sharp 0.35.5 como
+Opcional: para recriar as variantes antigas, use Node.js compatível e Sharp 0.35.5 como
 ferramenta de desenvolvimento, fora das dependências do site:
 
 ```bash
@@ -97,6 +122,7 @@ python3 scripts/build-standalone.py
 python3 scripts/build-package.py
 ```
 
+Essas variantes não são aplicadas automaticamente pelo gerador de imagens.
 A geração de WebP usa qualidade 82 (logo: 90), effort 6 e não amplia imagens.
 Confirme qualidade visual, carregamento e comportamento antes de publicar.
 Resultados antigos de auditoria não validam automaticamente uma nova versão.
