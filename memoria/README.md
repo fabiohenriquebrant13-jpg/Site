@@ -156,3 +156,13 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Guia em português em .agents/skills/README.md e dependências reproduzíveis em requirements-seo-audit.txt. Ambiente Python preparado fora do checkout em /workspace/seo-audit-tools/venv.
 - Verificados os dez comandos --help, análise JSON-LD local (pass nas duas skills), metadados sociais (warn do conteúdo) e pip check. Não executada auditoria completa nem descoberta automática em nova sessão.
 - Site e ZIP da Hostinger preservados; instalação apenas na branch readme-edits para revisão e posterior merge. A auditoria completa precisará de chave PageSpeed, não necessária à instalação.
+
+## Correção da galeria e metadados na readme-edits
+
+- Domínio oficial informado pelo usuário: https://www.ferreiramotores.com.br/.
+- Adicionados canonical e og:url; imagens Open Graph/Twitter alinhadas ao mesmo domínio nas duas versões HTML.
+- Galeria com tabindex=0, região nomeada e contorno azul de foco visível; navegação nativa com setas mantida no celular.
+- Atualizado o ZIP para Hostinger, preservando index.html na raiz e os 31 arquivos de assets/. As skills e os relatórios não fazem parte do ZIP.
+- Validação local das três versões (HTML, independente e ZIP extraído) em 375, 768 e 1440 pixels: galeria alcançada com Tab, foco visível, setas no celular, ausência de violações no axe-core executado, metadados corretos, menu, Escape, FAQ, imagens, âncoras e horários únicos ao final.
+- Validadores originais: canonical, JSON-LD e metadados sociais passaram nos dois HTMLs. Permanecem limitações de contraste que exigem revisão manual; não declarada conformidade WCAG completa.
+- Não validados domínio público, redirecionamentos ou hospedagem. Alterações destinadas somente à branch readme-edits, sem merge na main.
