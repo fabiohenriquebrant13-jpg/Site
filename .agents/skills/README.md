@@ -1,8 +1,31 @@
-# Skills de SEO deste projeto
+# Skills de desenvolvimento deste projeto
+
+## Melhorar HTML — reutilizável
+
+A skill `melhorar-html` foi criada para orientar melhorias em páginas HTML, CSS e
+JavaScript deste projeto e de futuros sites. Cobre layout, responsividade,
+acessibilidade, metadados, desempenho e validação, respeitando as instruções locais.
+
+- Instruções: [melhorar-html/SKILL.md](melhorar-html/SKILL.md).
+- Checklist: [melhorar-html/references/checklist.md](melhorar-html/references/checklist.md).
+- Uso e instalação em outros projetos: [exemplos](melhorar-html/references/exemplos.md).
+- Não exige pacotes por si só; usa as ferramentas que o projeto tiver ou precisar.
+- Para reutilizar, copie a pasta inteira `melhorar-html` para `.agents/skills/`
+  do outro repositório e inicie uma nova sessão/tarefa nesse projeto.
+
+Exemplo de pedido:
+
+> Use $melhorar-html para melhorar a seção de contato no celular, preservando a identidade visual.
+
+A skill é original e foi criada para este pedido. `Publii-master.zip` e
+`ant-design-landing-master.zip` contêm aplicações/templates, sem `SKILL.md`.
+Esses arquivos foram preservados; seus códigos não foram importados para o site.
+
+## Skills de SEO
 
 As skills `seo-audit` e `seo-audit-full` foram instaladas a partir do ZIP enviado
-na branch `readme-edits`. O pacote original foi preservado. Fazer merge desta
-branch leva as pastas instaladas à `main`; somente enviar o ZIP não instala skills.
+na branch `readme-edits`. O ZIP original foi removido após a instalação. Fazer merge desta
+branch leva as pastas instaladas à `main`; somente enviar um ZIP não instala skills.
 
 ## Organização
 
@@ -49,7 +72,7 @@ auditoria completa. Configure-a de forma segura como `PAGESPEED_API_KEY` ou
 A instalação e os validadores locais não precisam dessa chave. Acesso aos domínios
 analisados e aos serviços externos também depende da política de rede do ambiente.
 
-## Validação da instalação
+## Validação inicial da instalação
 
 - Os dez scripts responderam a `--help` sem erro de dependências.
 - Os dois validadores JSON-LD analisaram `index.html`: `pass`, dois blocos JSON-LD.
