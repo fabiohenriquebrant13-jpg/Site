@@ -149,3 +149,10 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Conteúdo extraído validado em Chromium/Playwright em 375, 768 e 1440 pixels: tabela única amarela ao final, imagens, âncoras, menu e FAQ.
 - Para instalar: enviar o ZIP ao public_html do domínio na Hostinger e extrair ali; index.html e assets/ devem ficar diretamente nessa pasta. Salvar uma cópia dos arquivos anteriores antes de substituí-los. Não exige npm ou build.
 - Upload e validação no domínio da Hostinger ainda não realizados.
+
+## Instalação das skills de SEO na readme-edits
+
+- Extraídas seo-audit e seo-audit-full do ZIP enviado para .agents/skills/, preservando scripts, referências e modelos; incluída licença MIT em cada pasta.
+- Guia em português em .agents/skills/README.md e dependências reproduzíveis em requirements-seo-audit.txt. Ambiente Python preparado fora do checkout em /workspace/seo-audit-tools/venv.
+- Verificados os dez comandos --help, análise JSON-LD local (pass nas duas skills), metadados sociais (warn do conteúdo) e pip check. Não executada auditoria completa nem descoberta automática em nova sessão.
+- Site e ZIP da Hostinger preservados; instalação apenas na branch readme-edits para revisão e posterior merge. A auditoria completa precisará de chave PageSpeed, não necessária à instalação.
