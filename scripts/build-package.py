@@ -24,6 +24,11 @@ class Assets(HTMLParser):
 
     def add(self, value):
         parsed = urlsplit(value)
+        if parsed.scheme in ("http", "https") and parsed.hostname in (
+            "www.ferreiramotores.com.br", "ferreiramotores.com.br"
+        ) and parsed.path.startswith("/assets/"):
+            self.paths.add(unquote(parsed.path).lstrip("/"))
+            return
         if not parsed.scheme and not parsed.netloc and parsed.path.strip("/"):
             self.paths.add(unquote(parsed.path).lstrip("/"))
 
@@ -37,6 +42,9 @@ def main():
         html = page.read_text(encoding="utf-8")
         parser.feed(html)
         for ref in re.findall(r"url\(['\"]?([^'\")]+)['\"]?\)", html):
+            parser.add(ref)
+        # Imagens absolutas em OG/Twitter e JSON-LD também precisam ser publicadas.
+        for ref in re.findall(r'https?://[^\s"\'<>]+', html):
             parser.add(ref)
     files = [root / name for name in sorted(published)]
     for name in sorted(parser.paths):

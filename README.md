@@ -14,10 +14,36 @@ brasileiro e endereço oficial informado: https://www.ferreiramotores.com.br/.
 - `.agents/skills/`: instruções de desenvolvimento; não fazem parte da publicação.
 - `AGENTS.md` e `memoria/README.md`: regras do projeto e decisões registradas.
 
-## Página 404 e logo no Google
+## Logo mantido no favicon e nova imagem de apresentação
+
+- A pedido do usuário, o favicon continua com o **logo completo original**.
+  Mantidos sem alteração os arquivos `favicon.ico` e `assets/favicon-96x96.png`.
+  A opção simplificada FM apresentada durante a criação não foi aplicada.
+- Nova arte: `assets/brand/ferreira-motores-apresentacao.jpg`, quadrada,
+  1200 × 1200. Mantém a moldura amarela/preta, o logo e os textos; apresenta
+  o motor azul sobre bancada, sem fundo branco.
+- É uma composição gráfica gerada com referências dos arquivos do projeto:
+  logo, `assets/nova/motor-hero-clean.webp` e a bancada da foto
+  `assets/IMG-20261003-WA0009.webp`. Não é uma fotografia documental de um novo
+  serviço realizado. As fotografias originais continuam preservadas.
+- O logo completo do cabeçalho e da página 404 também permanece igual.
+  Conteúdo visível e CSS da página principal não mudaram.
+- Open Graph, Twitter e o campo `image` do JSON-LD LocalBusiness apontam para a
+  nova arte. Incluída a permissão `max-image-preview:large`. Os metadados oferecem
+  uma imagem representativa, mas não controlam a miniatura orgânica do Google:
+  ele pode continuar escolhendo outras fotos presentes na página.
+- Os geradores sincronizam as duas versões HTML e incluem no ZIP as imagens
+  absolutas dos metadados e o logo referenciado no JSON-LD.
+
+Para aplicar, envie o pacote atualizado à hospedagem, preservando eventuais
+regras próprias do `.htaccess`. Confirme que os ícones e a nova imagem abrem
+publicamente. No Search Console, inspecione a página inicial e solicite novo
+rastreamento. A troca na busca depende do Google, sem prazo ou exibição garantidos.
+
+## Página 404 e publicação dos ícones
 
 O pacote inclui `404.html`, `.htaccess`, `favicon.ico` e
-`assets/favicon-96x96.png`. Os ícones usam o logo existente, sem redesenho.
+`assets/favicon-96x96.png`. Os ícones mantêm o logo completo original.
 As fotos e o contraste aprovados do site permanecem.
 
 1. Na Hostinger, faça uma cópia dos arquivos atuais de `public_html`.
