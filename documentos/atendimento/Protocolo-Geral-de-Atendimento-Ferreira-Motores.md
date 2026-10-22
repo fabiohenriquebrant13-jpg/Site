@@ -1,8 +1,8 @@
 # Protocolo geral de atendimento — Ferreira Motores
 WhatsApp, balcão e acompanhamento do serviço
-Versão 1.0 · 22 de outubro de 2026 · Uso interno
+Versão 1.1 · 22 de outubro de 2026 · Uso interno
 
-**99 mensagens adaptadas ao atendimento da Ferreira Motores.**
+**64 mensagens adaptadas ao atendimento da Ferreira Motores.**
 
 
 ## Como usar este protocolo
@@ -14,81 +14,23 @@ Este é o manual interno do time da Ferreira Motores para padronizar o atendimen
 ### Use em quatro passos
 
 - Leia o histórico e identifique a etapa antes de responder. Não faça o cliente repetir informações já recebidas.
-- Escolha uma mensagem; substitua todos os campos entre colchetes e retire o que não se aplica. Os atalhos /fm01 a /fm99 são sugestões para cadastrar respostas rápidas.
+- Escolha uma mensagem; substitua todos os campos entre colchetes e retire o que não se aplica. Os atalhos /fm01 a /fm64 são sugestões para cadastrar respostas rápidas.
 - Confira fatos, dados técnicos, valores, disponibilidade e condições. Envie uma mensagem de cada vez, em linguagem natural.
 - Registre o que ficou combinado, quem fará a próxima ação e quando haverá retorno. Confirme que esse retorno foi realizado.
-
-### O que foi adaptado do material de referência
-
-O PDF fornecido, “Protocolo de atendimento no WhatsApp”, foi usado como referência de estrutura: fundamentos, mensagens por etapa, objeções, fechamento, retomadas e pós-venda. Esta versão mantém 99 situações, reescritas para motores, bombas, motobombas e peças, e acrescenta a rotina de oficina e os registros necessários.
-
-As mensagens são alternativas por situação, não uma sequência de 99 envios. A resposta do cliente orienta o próximo passo. Encerrar com clareza também faz parte de um bom atendimento.
 
 ### Mapa dos atalhos
 
 | Etapa | Mensagens |
 | --- | --- |
-| Primeiro contato | 01–10 |
-| Triagem e descoberta | 11–20 |
-| Diagnóstico, orçamento e valor | 21–30 |
-| Dúvidas e objeções | 31–50 |
-| Aprovação e encaminhamento | 51–60 |
-| Acompanhamento e retomadas | 61–75 |
-| Reativação de clientes | 76–83 |
-| Pós-venda e relacionamento | 84–91 |
-| Situações especiais | 92–99 |
-
-
-## Linguagem padrão e conversão
-
-A linguagem da Ferreira Motores deve ser clara, respeitosa e próxima. A conversão esperada é uma decisão bem informada: enviar os dados certos, encaminhar o equipamento, aprovar um orçamento, confirmar uma compra ou combinar a entrega.
-
-### Sete princípios para toda a equipe
-
-- Assuma a conversa: identifique-se pelo nome, leia o histórico e diga o que vai fazer.
-- Explique sem complicar: troque jargões por uma descrição simples e confirme informações técnicas com quem pode validá-las.
-- Pergunte o necessário: uma pergunta principal por vez. Peça foto da placa, aplicação ou relato quando isso ajudar a decidir.
-- Informe com transparência: dê preços conhecidos quando solicitados. Em reparos sem diagnóstico, explique por que é necessária a avaliação.
-- Apresente valor concreto: relacione o problema identificado ao escopo proposto. Não use promessas de resultado, economia ou prazo sem base.
-- Ofereça um próximo passo possível: use uma pergunta, uma confirmação ou um retorno combinado. Não crie urgência, estoque ou horários fictícios.
-- Respeite a decisão: aceite recusa e pedido para interromper contatos. Não termine toda resposta com uma pergunta artificial.
-
-### Padrão de escrita
-
-- Use “você”, o primeiro nome quando conhecido e “nossa equipe”. Não repita o nome em todas as frases.
-- Prefira parágrafos curtos e termos consistentes: avaliação, diagnóstico, orçamento, aprovação e prazo estimado.
-- Evite abreviações confusas, excesso de emojis, caixa alta e áudios longos. Se enviar áudio, deixe por escrito os valores e acordos.
-- Não faça diagnóstico definitivo por foto ou mensagem. Não oriente intervenções elétricas improvisadas.
-- Ao errar uma informação, corrija diretamente, explique o que mudou e registre o novo combinado.
-
-> Antes de enviar: esta mensagem ajuda o cliente a entender e agir? Todos os dados são verdadeiros? O próximo passo é possível?
-
-
-## Papéis, autonomia e registro
-
-Os papéis abaixo são funções de atendimento. A gestão define quem as assume em cada turno, mesmo quando uma mesma pessoa acumula mais de uma função.
-
-| Função | Responsabilidade |
-| --- | --- |
-| Atendimento | Receber, identificar a demanda, registrar a OS/consulta, explicar condições confirmadas e cumprir os retornos. |
-| Responsável técnico | Validar diagnóstico, compatibilidade, escopo, testes, orientações e previsão técnica. |
-| Gestão / comercial | Autorizar exceções de preço, condições especiais, encaminhamento de reclamações e regras comerciais. |
-| Quem confere o financeiro | Conferir recebimento e saldo; liberar informação de quitação somente com confirmação. |
-
-### Registro mínimo por atendimento
-
-- Nome e contato do cliente; empresa e responsável pela aprovação quando pertinentes.
-- Identificação do equipamento ou referência do produto; relato da necessidade e fotos realmente recebidas.
-- Número da OS ou identificação da consulta; etapa atual e pessoa responsável pelo atendimento.
-- Orçamento e versão enviados; escopo, valores, condições e aceite por escrito.
-- Entradas, acessórios, alterações de escopo, registros técnicos e orientações entregues.
-- Próxima ação, responsável e data de retorno; entrega e situação financeira confirmadas.
-
-### Antes de dar qualquer condição comercial
-
-Consulte a regra vigente para avaliação e desmontagem, transporte, validade de proposta, pagamento, reserva, garantia e descontos. Se não houver condição confirmada, informe que vai consultar. Nenhum preço, prazo de garantia, parcelamento, taxa ou entrega gratuita é criado por este manual.
-
-> Não executar reparo ou adicional sem autorização aplicável. Não confirmar estoque, compatibilidade, prazo ou quitação sem conferência.
+| Primeiro contato | 01–05 |
+| Triagem e descoberta | 06–13 |
+| Diagnóstico, orçamento e valor | 14–20 |
+| Dúvidas e objeções | 21–30 |
+| Aprovação e encaminhamento | 31–38 |
+| Acompanhamento e retomadas | 39–48 |
+| Reativação de clientes | 49–52 |
+| Pós-venda e relacionamento | 53–57 |
+| Situações especiais | 58–64 |
 
 
 ## Fluxo operacional do atendimento
@@ -142,91 +84,23 @@ Os colchetes indicam campos que a equipe deve preencher. Antes de enviar, revise
 Se um campo não se aplica ao atendimento, retire-o. Se a informação ainda não foi confirmada, consulte o responsável antes de apresentar uma proposta fechada.
 
 
-## Organização, retornos e WhatsApp Business
-
-### Etiquetas sugeridas para o time
-
-Novo contato • Em triagem • Aguardando equipamento • Em avaliação • Orçamento enviado • Aguardando aprovação • Aprovado / em execução • Aguardando peça • Pronto para entrega • Concluído • Pós-venda / retorno • Encerrado sem aprovação.
-
-Cada conversa deve ter um status claro e um responsável. Não usar “Concluído” para equipamento apenas pronto, nem para uma oportunidade sem decisão.
-
-### Cadência sugerida para orçamento sem resposta
-
-| Momento sugerido | Conduta |
-| --- | --- |
-| Retorno combinado | Se o cliente indicou uma data, respeitá-la antes de seguir a cadência padrão. |
-| D+1 útil | Confirmar recebimento ou esclarecer uma dúvida relevante. |
-| D+3 útil | Fazer uma segunda retomada com contexto, se não houver recusa. |
-| D+7 útil | Encerrar as tentativas com respeito, salvo outro combinado. |
-
-D é o envio do orçamento. Esta cadência é uma sugestão operacional para a gestão ajustar, não um compromisso já anunciado pela empresa. Não enviar todas as mensagens 61–75: elas são opções para situações diferentes. Reclamações, pagamentos combinados e equipamentos sob guarda exigem acompanhamento próprio.
-
-### Configuração e rotina
-
-- Usar perfil com logo original, nome da empresa e dados de contato conferidos.
-- Configurar boas-vindas, ausência e respostas rápidas, adaptando os textos ao caso antes do envio.
-- Na abertura do turno, revisar retornos e serviços em aberto. Na troca de turno, passar histórico e pendências.
-- Se a resposta depender de outra pessoa, combinar quando haverá uma posição. Avisar mesmo quando a investigação ainda estiver em andamento.
-- Áudios, fotos e documentos apoiam a conversa; acordos de preço, escopo, prazo e aprovação ficam registrados por escrito.
-
-
 ## 01 / Primeiro contato
 
 Receber bem, identificar a demanda e assumir o atendimento.
 
 **Objetivo:** Identificar o motivo do contato e informar quem dará continuidade.
 
-### 01. Boas-vindas no WhatsApp — /fm01
+### 01. Boas-vindas e direcionamento — /fm01
 
-**Quando usar:** Primeira resposta automática, dentro do horário de atendimento.
-
-**Mensagem ao cliente:**
-
-> Olá! Você está falando com a Ferreira Motores, em Santa Luzia. Para direcionar seu atendimento, você precisa de manutenção, de um equipamento ou peça, ou de informações sobre um serviço em andamento?
-
-**Ação interna:** Identificar a demanda. A resposta automática não substitui a apresentação de quem assume a conversa.
-
-### 02. Contato pelo Google ou pelo site — /fm02
-
-**Quando usar:** Cliente informa que encontrou a empresa na busca ou no site.
+**Quando usar:** Primeiro contato, inclusive quando o cliente manda apenas “oi”.
 
 **Mensagem ao cliente:**
 
-> Olá, [NOME]! Sou [ATENDENTE], da Ferreira Motores. Vamos entender o que você precisa. Qual equipamento ou peça você está procurando?
+> Olá! Você está falando com a Ferreira Motores, em Santa Luzia. Você precisa de manutenção, de um equipamento ou peça, ou de acompanhar um serviço?
 
-**Ação interna:** Registrar a origem quando informada e continuar a triagem sem repetir perguntas já respondidas.
+**Ação interna:** Identificar a demanda e encaminhar para quem dará continuidade.
 
-### 03. Cliente indicado — /fm03
-
-**Quando usar:** Cliente menciona uma indicação.
-
-**Mensagem ao cliente:**
-
-> Olá, [NOME]! Obrigado por entrar em contato e pela indicação de [INDICADOR]. Sou [ATENDENTE], da Ferreira Motores. Qual equipamento você precisa avaliar ou encontrar?
-
-**Ação interna:** Mencionar o indicador somente se o próprio cliente o tiver informado.
-
-### 04. Contato pelo Instagram — /fm04
-
-**Quando usar:** Cliente chega pelo perfil da empresa.
-
-**Mensagem ao cliente:**
-
-> Olá, [NOME]! Sou [ATENDENTE], da Ferreira Motores. Vi seu contato pelo Instagram. Você procura um serviço de manutenção ou quer consultar algum produto?
-
-**Ação interna:** Aproveitar o contexto recebido no direct. Não pedir novamente o que já foi enviado.
-
-### 05. Cliente manda apenas “oi” — /fm05
-
-**Quando usar:** Não há informação suficiente para direcionar.
-
-**Mensagem ao cliente:**
-
-> Olá! Sou [ATENDENTE], da Ferreira Motores. Você precisa de manutenção, está procurando uma peça ou quer acompanhar um serviço?
-
-**Ação interna:** Fazer uma pergunta simples; identificar o nome naturalmente na sequência.
-
-### 06. Como funciona a manutenção — /fm06
+### 02. Como funciona a manutenção — /fm02
 
 **Quando usar:** Cliente pergunta de forma geral sobre o serviço.
 
@@ -236,7 +110,7 @@ Receber bem, identificar a demanda e assumir o atendimento.
 
 **Ação interna:** Confirmar previamente qualquer condição de avaliação, desmontagem ou transporte que possa gerar custo.
 
-### 07. Mensagem fora do horário — /fm07
+### 03. Mensagem fora do horário — /fm03
 
 **Quando usar:** Resposta de ausência na rotina normal da empresa.
 
@@ -246,27 +120,17 @@ Receber bem, identificar a demanda e assumir o atendimento.
 
 **Ação interna:** Conferir horários antes de configurar. Em urgências, consultar disponibilidade; não prometer plantão ou resposta imediata.
 
-### 08. Levar a conversa de outra rede ao WhatsApp — /fm08
+### 04. Apresentação do atendente — /fm04
 
-**Quando usar:** O cliente está em outro canal e precisa enviar informações.
-
-**Mensagem ao cliente:**
-
-> Podemos continuar pelo WhatsApp da Ferreira Motores: (31) 99423-1451. Por lá você consegue enviar fotos e os dados do equipamento. Se preferir, também podemos seguir por este canal. O que fica melhor para você?
-
-**Ação interna:** Oferecer a mudança de canal sem obrigar o cliente nem exigir seu telefone em comentário público.
-
-### 09. Um atendente assume a conversa — /fm09
-
-**Quando usar:** Já houve mensagem automática ou contato inicial.
+**Quando usar:** Um atendente assume a conversa, independentemente do canal de origem.
 
 **Mensagem ao cliente:**
 
-> Olá, [NOME]! Sou [ATENDENTE] e vou acompanhar seu atendimento aqui na Ferreira Motores. Vi que você precisa de [NECESSIDADE]. Qual é a principal dúvida que precisamos resolver agora?
+> Olá, [NOME]! Sou [ATENDENTE], da Ferreira Motores, e vou acompanhar seu atendimento. Vi sua mensagem sobre [NECESSIDADE]. Qual ponto precisamos resolver primeiro?
 
-**Ação interna:** Ler o histórico antes de assumir. Registrar quem ficará responsável pelo próximo retorno.
+**Ação interna:** Ler o histórico antes de assumir e aproveitar as informações já recebidas.
 
-### 10. Disponibilidade de produto — /fm10
+### 05. Disponibilidade de produto — /fm05
 
 **Quando usar:** Cliente pergunta se há motor, bomba ou peça à venda.
 
@@ -283,7 +147,7 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Objetivo:** Registrar os dados essenciais e encaminhar a avaliação ou a consulta de produto.
 
-### 11. Identificar equipamento e problema — /fm11
+### 06. Identificar equipamento e problema — /fm06
 
 **Quando usar:** Início de uma solicitação de manutenção.
 
@@ -293,17 +157,17 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Ação interna:** Anotar relato e identificação. Não transformar o relato do cliente em diagnóstico confirmado.
 
-### 12. Preço do conserto antes da avaliação — /fm12
+### 07. Preço do conserto antes da avaliação — /fm07
 
 **Quando usar:** Cliente pede um valor sem diagnóstico.
 
 **Mensagem ao cliente:**
 
-> [NOME], o valor do reparo depende do que a avaliação identificar. Para evitar uma informação imprecisa, precisamos entender o equipamento e a falha. Qual é o modelo e o que aconteceu?
+> [NOME], o valor do reparo depende da avaliação. Para começarmos, qual é o modelo do equipamento e o que aconteceu?
 
 **Ação interna:** Se houver preço definido de um item ou serviço padronizado, informar com clareza. Não esconder preço conhecido para forçar conversa.
 
-### 13. Foto da placa de identificação — /fm13
+### 08. Foto da placa de identificação — /fm08
 
 **Quando usar:** Faltam dados técnicos para consultar o caso.
 
@@ -313,7 +177,7 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Ação interna:** Solicitar apenas dados necessários. Se a placa estiver inacessível, encaminhar à avaliação presencial.
 
-### 14. Entender a aplicação — /fm14
+### 09. Entender a aplicação — /fm09
 
 **Quando usar:** É preciso saber onde e como o equipamento trabalha.
 
@@ -323,7 +187,7 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Ação interna:** Registrar a aplicação; dimensionamento e compatibilidade devem ser validados pelo responsável técnico.
 
-### 15. Entender urgência real — /fm15
+### 10. Entender urgência real — /fm10
 
 **Quando usar:** Cliente relata parada ou precisa de prazo.
 
@@ -333,7 +197,7 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Ação interna:** Não prometer prioridade ou entrega antes de consultar capacidade, diagnóstico e disponibilidade de peças.
 
-### 16. Histórico de manutenção — /fm16
+### 11. Histórico de manutenção — /fm11
 
 **Quando usar:** Cliente relata reparo anterior ou falha recorrente.
 
@@ -343,17 +207,7 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Ação interna:** Registrar o histórico sem atribuir culpa a outro profissional ou concluir a causa à distância.
 
-### 17. Quem aprova o orçamento — /fm17
-
-**Quando usar:** Atendimento de empresa ou compra com outro responsável.
-
-**Mensagem ao cliente:**
-
-> [NOME], o orçamento será analisado por você ou por outra pessoa da empresa? Posso preparar o resumo com as informações necessárias para a aprovação.
-
-**Ação interna:** Registrar o responsável e os dados de faturamento realmente necessários. Não contatar terceiros sem o encaminhamento combinado.
-
-### 18. Reparar ou substituir — /fm18
+### 12. Reparar ou substituir — /fm12
 
 **Quando usar:** Cliente ainda não sabe qual caminho escolher.
 
@@ -363,17 +217,7 @@ Entender equipamento, aplicação e necessidade antes de indicar uma solução.
 
 **Ação interna:** A equipe técnica deve validar a comparação; não indicar substituição apenas para elevar o valor da venda.
 
-### 19. Cliente está apenas pesquisando — /fm19
-
-**Quando usar:** Contato sem decisão imediata.
-
-**Mensagem ao cliente:**
-
-> Sem problema, [NOME]. Posso ajudar a conferir as especificações para você comparar corretamente. Você está pesquisando um equipamento novo, revisado ou o reparo do que já possui?
-
-**Ação interna:** Respeitar a pesquisa. Registrar uma retomada somente se houver contexto ou combinação de retorno.
-
-### 20. Organizar entrada na oficina — /fm20
+### 13. Organizar entrada na oficina — /fm13
 
 **Quando usar:** A necessidade já foi identificada e exige avaliação.
 
@@ -390,47 +234,17 @@ Explicar o que foi identificado, o que está incluído e o próximo passo.
 
 **Objetivo:** Apresentar uma proposta clara, com escopo, valor e condições confirmadas.
 
-### 21. Apresentar o diagnóstico confirmado — /fm21
+### 14. Apresentar o diagnóstico confirmado — /fm14
 
 **Quando usar:** A equipe técnica concluiu a avaliação.
 
 **Mensagem ao cliente:**
 
-> [NOME], a avaliação do [EQUIPAMENTO], OS [OS], identificou [DIAGNÓSTICO]. O serviço indicado é [SERVIÇO], para tratar [PROBLEMA IDENTIFICADO]. Posso detalhar os itens do orçamento para você?
+> [NOME], a avaliação da OS [OS] identificou [DIAGNÓSTICO]. Indicamos [SERVIÇO] para tratar [PROBLEMA IDENTIFICADO]. Posso explicar os itens do orçamento?
 
 **Ação interna:** Usar somente o diagnóstico validado. Traduzir termos técnicos sem prometer resultado além do que foi avaliado.
 
-### 22. Comparar propostas pelo escopo — /fm22
-
-**Quando usar:** Cliente apresenta outro orçamento.
-
-**Mensagem ao cliente:**
-
-> [NOME], para comparar de forma justa, vale conferir os serviços, peças, prazo e condições incluídos em cada proposta. No nosso orçamento estão [ITENS INCLUÍDOS]. Há algum item que você queira esclarecer?
-
-**Ação interna:** Comparar fatos da própria proposta; não desqualificar concorrentes nem atribuir defeitos sem evidência.
-
-### 23. Mostrar um trabalho realizado — /fm23
-
-**Quando usar:** O cliente pede referência do serviço.
-
-**Mensagem ao cliente:**
-
-> [NOME], posso te enviar um registro de um trabalho realizado pela Ferreira Motores para mostrar como apresentamos o serviço. No seu equipamento, a indicação e o orçamento dependem da avaliação específica.
-
-**Ação interna:** Usar registros reais e autorizados, sem expor dados de outros clientes ou prometer o mesmo resultado em outro caso.
-
-### 24. Explicar o processo em três passos — /fm24
-
-**Quando usar:** Cliente quer entender como será atendido.
-
-**Mensagem ao cliente:**
-
-> [NOME], seguimos três passos: avaliamos o equipamento, apresentamos o orçamento e executamos o que for aprovado. Durante o atendimento, você recebe as informações do seu caso. Quer combinar a entrada para avaliação?
-
-**Ação interna:** Não afirmar que existe acompanhamento automático se ele não estiver implantado. Definir quem fará os retornos.
-
-### 25. Indicar um produto adequado — /fm25
+### 15. Indicar um produto adequado — /fm15
 
 **Quando usar:** Há uma opção validada para a necessidade.
 
@@ -440,7 +254,7 @@ Explicar o que foi identificado, o que está incluído e o próximo passo.
 
 **Ação interna:** Compatibilidade técnica, estoque e condição do produto devem estar confirmados antes desta mensagem.
 
-### 26. Explicar os testes e verificações — /fm26
+### 16. Explicar os testes e verificações — /fm16
 
 **Quando usar:** Cliente pede mais segurança sobre o processo.
 
@@ -450,7 +264,7 @@ Explicar o que foi identificado, o que está incluído e o próximo passo.
 
 **Ação interna:** Citar apenas testes realmente executados e resultados registrados, sem inventar laudo ou certificação.
 
-### 27. Enviar orçamento completo de manutenção — /fm27
+### 17. Enviar orçamento completo de manutenção — /fm17
 
 **Quando usar:** Escopo e condições já foram conferidos.
 
@@ -460,7 +274,7 @@ Explicar o que foi identificado, o que está incluído e o próximo passo.
 
 **Ação interna:** Anexar o orçamento detalhado. Garantia, itens excluídos e eventual custo de avaliação devem estar claros no documento aplicável.
 
-### 28. Comparar reparo e substituição com dados — /fm28
+### 18. Comparar reparo e substituição com dados — /fm18
 
 **Quando usar:** Já existem opções técnica e comercialmente validadas.
 
@@ -470,7 +284,7 @@ Explicar o que foi identificado, o que está incluído e o próximo passo.
 
 **Ação interna:** Apresentar diferenças reais. Não classificar a opção mais cara como melhor sem justificativa técnica.
 
-### 29. Enviar fotos ou vídeo do equipamento — /fm29
+### 19. Enviar fotos ou vídeo do equipamento — /fm19
 
 **Quando usar:** O registro ajuda a explicar um achado.
 
@@ -480,7 +294,7 @@ Explicar o que foi identificado, o que está incluído e o próximo passo.
 
 **Ação interna:** Identificar o equipamento correto e revisar o arquivo antes do envio. Não expor documentos ou terceiros ao fundo.
 
-### 30. Apresentar a empresa com fatos — /fm30
+### 20. Apresentar a empresa com fatos — /fm20
 
 **Quando usar:** Cliente pergunta sobre experiência e localização.
 
@@ -497,127 +311,77 @@ Ajudar o cliente a decidir com informação, sem confronto ou pressão.
 
 **Objetivo:** Entender a dúvida e resolver o ponto que impede uma decisão consciente.
 
-### 31. “Achei caro” — /fm31
+### 21. Valor acima do esperado — /fm21
 
-**Quando usar:** Cliente questiona o valor apresentado.
+**Quando usar:** Cliente diz que achou caro ou esperava pagar menos.
 
 **Mensagem ao cliente:**
 
-> Entendo, [NOME]. No orçamento estão [ITENS INCLUÍDOS], indicados após a avaliação. Posso te explicar quais itens compõem esse valor para você analisar com clareza?
+> Entendo, [NOME]. O orçamento inclui [ITENS INCLUÍDOS], indicados na avaliação. Posso explicar o que compõe o valor e consultar uma alternativa, se houver uma opção técnica adequada?
 
 **Ação interna:** Ouvir a objeção antes de oferecer desconto. Alterações de escopo precisam de validação técnica.
 
-### 32. “Vou pensar” — /fm32
+### 22. Cliente quer pensar ou adiar — /fm22
 
-**Quando usar:** Cliente pede tempo para decidir.
-
-**Mensagem ao cliente:**
-
-> Claro, [NOME]. Você prefere analisar com calma ou ficou alguma dúvida sobre o serviço, o prazo ou as condições? Posso esclarecer o ponto que estiver faltando para sua decisão.
-
-**Ação interna:** Respeitar o tempo solicitado. Se houver abertura, combinar um único próximo retorno.
-
-### 33. “Preciso falar com o sócio” — /fm33
-
-**Quando usar:** Outra pessoa participa da aprovação.
+**Quando usar:** Cliente pede mais tempo, está pesquisando ou ainda não vai decidir.
 
 **Mensagem ao cliente:**
 
-> Sem problema, [NOME]. Posso te encaminhar um resumo com diagnóstico, escopo, valor e prazo para facilitar essa conversa. Qual informação o responsável precisa receber?
+> Claro, [NOME]. Ficou alguma dúvida ou prefere analisar com calma? Se quiser, combinamos um retorno no momento mais adequado.
+
+**Ação interna:** Respeitar a decisão. Se houver retorno, registrar a data; se não houver interesse, encerrar as tentativas.
+
+### 23. Outra pessoa precisa aprovar — /fm23
+
+**Quando usar:** A decisão depende de sócio, familiar ou outro responsável.
+
+**Mensagem ao cliente:**
+
+> Sem problema, [NOME]. Posso enviar um resumo com escopo, valor e prazo para facilitar a aprovação. Qual informação o responsável precisa receber?
 
 **Ação interna:** Não tratar a conversa como aprovada até haver aceite do responsável pelo orçamento.
 
-### 34. “Já tenho outro fornecedor” — /fm34
+### 24. Comparação com outra proposta — /fm24
 
-**Quando usar:** Cliente informa uma relação comercial existente.
-
-**Mensagem ao cliente:**
-
-> Entendo, [NOME]. Podemos apresentar nossa proposta para você avaliar como alternativa quando precisar. Qual serviço ou item está consultando neste momento?
-
-**Ação interna:** Valorizar a relação do cliente com seus fornecedores; não criar confronto.
-
-### 35. “Agora não é o momento” — /fm35
-
-**Quando usar:** Cliente decide adiar o serviço ou a compra.
+**Quando usar:** Cliente encontrou preço menor ou está comparando fornecedores.
 
 **Mensagem ao cliente:**
 
-> Entendido, [NOME]. Vou registrar que você prefere adiar por enquanto. Se quiser retomar, conferimos novamente as condições e a disponibilidade. Você deseja combinar uma data de retorno ou prefere nos chamar?
+> [NOME], vale comparar os serviços, peças, prazo e condições incluídos. Na nossa proposta estão [ESCOPO]. Qual diferença você quer conferir primeiro?
 
-**Ação interna:** Se o cliente não quiser retorno, encerrar as retomadas. Orientações de segurança devem se basear no caso avaliado.
+**Ação interna:** Comparar somente fatos conhecidos, sem desqualificar concorrentes.
 
-### 36. “Encontrei mais barato” — /fm36
+### 25. Dúvida se a opção atende ao uso — /fm25
 
-**Quando usar:** Há uma proposta com valor menor.
-
-**Mensagem ao cliente:**
-
-> [NOME], faz sentido comparar. Confirme se a outra proposta inclui os mesmos serviços, peças e condições. No nosso caso, estão incluídos [ESCOPO]. Qual diferença você gostaria de conferir primeiro?
-
-**Ação interna:** Não presumir qualidade inferior do concorrente. Comparar apenas informações conhecidas.
-
-### 37. Dúvida de compatibilidade — /fm37
-
-**Quando usar:** Cliente não sabe se uma peça ou equipamento serve.
+**Quando usar:** Cliente pergunta sobre compatibilidade ou se a solução serve para o caso.
 
 **Mensagem ao cliente:**
 
-> [NOME], antes de confirmar, precisamos conferir [DADO TÉCNICO NECESSÁRIO]. Pode enviar essa informação ou uma foto da identificação? Assim a equipe verifica se a opção é adequada.
+> [NOME], antes de confirmar a indicação, precisamos conferir [DADO TÉCNICO NECESSÁRIO]. Pode enviar essa informação para validarmos com a equipe?
 
 **Ação interna:** Não confirmar compatibilidade por semelhança visual ou apenas pela potência nominal.
 
-### 38. “Já consertei e o problema voltou” — /fm38
+### 26. “Já consertei e o problema voltou” — /fm26
 
 **Quando usar:** Há relato de reincidência ou experiência ruim.
 
 **Mensagem ao cliente:**
 
-> Entendo sua preocupação, [NOME]. Vamos registrar o histórico e encaminhar a avaliação para entender o que ocorreu. Quando o problema reapareceu e qual foi o comportamento do equipamento?
+> Entendo sua preocupação, [NOME]. Vamos registrar o histórico e avaliar o que ocorreu. Quando o problema voltou e como o equipamento passou a funcionar?
 
 **Ação interna:** Não atribuir culpa nem prometer solução definitiva sem análise. Se for serviço da casa, vincular a OS anterior.
 
-### 39. “Esperava um valor menor” — /fm39
-
-**Quando usar:** A expectativa inicial era diferente do orçamento.
-
-**Mensagem ao cliente:**
-
-> [NOME], a avaliação identificou [ACHADO], e por isso o orçamento inclui [ESCOPO]. Posso esclarecer o que tornou esse serviço necessário e, se houver, consultar uma alternativa tecnicamente adequada.
-
-**Ação interna:** Não retirar etapa essencial apenas para reduzir preço. Alternativas dependem de aprovação técnica e comercial.
-
-### 40. “Não cabe no orçamento” — /fm40
+### 27. “Não cabe no orçamento” — /fm27
 
 **Quando usar:** Cliente informa limitação financeira.
 
 **Mensagem ao cliente:**
 
-> Entendo, [NOME]. Posso verificar as condições de pagamento disponíveis para este caso. Se elas não atenderem, respeitamos sua decisão e registramos a situação do equipamento. Qual condição você precisa consultar?
+> Entendo, [NOME]. Posso consultar as condições disponíveis para este orçamento. Qual forma de pagamento você gostaria de verificar?
 
 **Ação interna:** Não prometer parcelamento, juros, abatimento ou isenção antes da autorização comercial.
 
-### 41. Pedido de mais tempo — /fm41
-
-**Quando usar:** Cliente precisa de prazo para analisar a proposta.
-
-**Mensagem ao cliente:**
-
-> Claro, [NOME]. A proposta tem validade até [VALIDADE CONFIRMADA]. Se precisar decidir depois disso, revisamos as condições antes de seguir. Você gostaria de combinar um retorno dentro desse período?
-
-**Ação interna:** Informar validade real, sem criar vencimento artificial para pressionar.
-
-### 42. Receio de pagamento a distância — /fm42
-
-**Quando usar:** Cliente pede confirmação da empresa e do recebimento.
-
-**Mensagem ao cliente:**
-
-> [NOME], você pode conferir nosso endereço e os canais oficiais da Ferreira Motores. Antes de pagar, confirme os dados do recebedor com nossa equipe pelo número (31) 99423-1451. Qual informação você quer validar?
-
-**Ação interna:** Enviar somente dados de pagamento autorizados. Nunca solicitar senha, código de segurança ou acesso ao banco do cliente.
-
-### 43. Pergunta sobre garantia — /fm43
+### 28. Pergunta sobre garantia — /fm28
 
 **Quando usar:** Cliente quer conhecer as condições aplicáveis.
 
@@ -627,67 +391,17 @@ Ajudar o cliente a decidir com informação, sem confronto ou pressão.
 
 **Ação interna:** Preencher com a política confirmada e os direitos aplicáveis. Não inventar prazo ou exclusões de garantia.
 
-### 44. Receio sobre o resultado — /fm44
-
-**Quando usar:** Cliente quer uma promessa antes da execução.
-
-**Mensagem ao cliente:**
-
-> [NOME], vamos explicar o diagnóstico, o serviço indicado e as verificações previstas para o seu caso. Se surgir algo fora do escopo aprovado, voltamos a conversar antes de executar. Qual é sua principal preocupação?
-
-**Ação interna:** Não prometer ausência de novas falhas, vida útil ou desempenho que não possam ser assegurados.
-
-### 45. Pedido de parcelamento — /fm45
+### 29. Pedido de parcelamento — /fm29
 
 **Quando usar:** Cliente consulta formas de pagamento.
 
 **Mensagem ao cliente:**
 
-> [NOME], vou confirmar as condições disponíveis para este orçamento. Depois te informo o valor total, eventuais parcelas e os custos aplicáveis antes da sua decisão. Qual forma de pagamento você deseja consultar?
+> [NOME], vou confirmar se há parcelamento para este orçamento e te informar o valor total, as parcelas e os custos aplicáveis antes da sua decisão.
 
 **Ação interna:** Descrever o custo total de forma transparente; não usar apenas o valor de uma parcela.
 
-### 46. “Vai resolver meu caso?” — /fm46
-
-**Quando usar:** Cliente quer confirmar a indicação técnica.
-
-**Mensagem ao cliente:**
-
-> [NOME], a indicação foi feita com base em [DIAGNÓSTICO CONFIRMADO] para tratar [PROBLEMA IDENTIFICADO]. Se sua dúvida for sobre a aplicação ou alguma condição de uso, vou confirmar com o responsável técnico. Qual ponto precisamos verificar?
-
-**Ação interna:** Encaminhar ao técnico quando faltar informação; não transformar uma hipótese em garantia.
-
-### 47. Comparação entre fornecedores — /fm47
-
-**Quando usar:** Cliente pede um motivo para escolher a empresa.
-
-**Mensagem ao cliente:**
-
-> [NOME], posso te ajudar a comparar o escopo, o prazo e as condições da nossa proposta. Na Ferreira Motores, o orçamento do seu caso contempla [ITENS CONFIRMADOS]. O que é mais importante para sua decisão agora?
-
-**Ação interna:** Destacar fatos do atendimento, sem superioridade genérica ou depoimentos inventados.
-
-### 48. Cliente está sem tempo — /fm48
-
-**Quando usar:** A pessoa não consegue tratar do assunto naquele momento.
-
-**Mensagem ao cliente:**
-
-> Sem problema, [NOME]. Posso deixar um resumo por escrito para você analisar no seu horário. Quando seria adequado fazermos um novo contato?
-
-**Ação interna:** Registrar o horário escolhido e evitar várias mensagens enquanto o cliente estiver indisponível.
-
-### 49. “Vou pesquisar outras opções” — /fm49
-
-**Quando usar:** Cliente deseja comparar antes de fechar.
-
-**Mensagem ao cliente:**
-
-> Claro, [NOME]. Vou deixar o orçamento organizado para sua comparação. Confira especialmente os itens incluídos, o prazo e as condições. Se surgir uma dúvida sobre nossa proposta, posso esclarecer por aqui.
-
-**Ação interna:** Não exigir resposta imediata. Combinar acompanhamento apenas se o cliente desejar.
-
-### 50. Cliente decide não seguir — /fm50
+### 30. Cliente decide não seguir — /fm30
 
 **Quando usar:** A proposta foi recusada.
 
@@ -704,7 +418,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Objetivo:** Confirmar escopo, valor, prazo estimado e responsável antes de iniciar.
 
-### 51. Combinar entrada ou recebimento — /fm51
+### 31. Combinar entrada ou recebimento — /fm31
 
 **Quando usar:** O cliente decidiu encaminhar o equipamento.
 
@@ -714,7 +428,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Usar somente opções realmente disponíveis. Se nenhuma servir, consultar outra possibilidade.
 
-### 52. Pedir aprovação explícita — /fm52
+### 32. Pedir aprovação explícita — /fm32
 
 **Quando usar:** O orçamento está completo e o cliente quer seguir.
 
@@ -724,17 +438,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Guardar o aceite ligado à versão do orçamento. Um “ok” fora de contexto não deve ser tratado como aprovação completa.
 
-### 53. Confirmar reserva de produto — /fm53
-
-**Quando usar:** Produto e condição de reserva foram consultados.
-
-**Mensagem ao cliente:**
-
-> [NOME], confirmamos a disponibilidade de [PRODUTO / REFERÊNCIA], na condição [NOVO OU REVISADO]. A reserva pode ser feita conforme [CONDIÇÃO CONFIRMADA]. Quer seguir com essa condição?
-
-**Ação interna:** Não criar reserva sem autorização nem declarar estoque separado antes de confirmar o procedimento.
-
-### 54. Confirmar recebimento do equipamento — /fm54
+### 33. Confirmar recebimento do equipamento — /fm33
 
 **Quando usar:** O equipamento chegou e foi identificado.
 
@@ -744,7 +448,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Registrar condição de entrada, identificação, acessórios e fotos quando cabíveis. Confirmar qualquer divergência de recebimento.
 
-### 55. Confirmar prazo de execução — /fm55
+### 34. Confirmar prazo de execução — /fm34
 
 **Quando usar:** Existe previsão validada pela equipe.
 
@@ -754,7 +458,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Diferenciar prazo estimado de data garantida; registrar dependências reais sem omiti-las.
 
-### 56. Aprovar um serviço adicional — /fm56
+### 35. Aprovar um serviço adicional — /fm35
 
 **Quando usar:** A equipe identificou algo fora do escopo original.
 
@@ -764,7 +468,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Não executar o adicional antes do aceite. Registrar a revisão do orçamento e o total atualizado.
 
-### 57. Sinal ou pagamento combinado — /fm57
+### 36. Sinal ou pagamento combinado — /fm36
 
 **Quando usar:** Existe condição de pagamento aprovada pelo cliente.
 
@@ -774,7 +478,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Não exigir sinal que não tenha sido combinado. Conferir dados e responsável antes do envio.
 
-### 58. Confirmar aprovação registrada — /fm58
+### 37. Confirmar aprovação registrada — /fm37
 
 **Quando usar:** O aceite foi recebido de forma clara.
 
@@ -784,7 +488,7 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Atualizar o status e transmitir ao técnico exatamente o que foi aprovado, incluindo limites e observações.
 
-### 59. Enviar dados de pagamento — /fm59
+### 38. Enviar dados de pagamento — /fm38
 
 **Quando usar:** O cliente solicitou os dados oficiais.
 
@@ -794,16 +498,6 @@ Transformar o aceite em um registro claro para a equipe executar.
 
 **Ação interna:** Usar dados conferidos pela gestão. Confirmar recebimento no controle financeiro; um comprovante, sozinho, não substitui essa conferência.
 
-### 60. Fechar a conversa sem pressionar — /fm60
-
-**Quando usar:** O cliente ainda não decidiu após receber tudo.
-
-**Mensagem ao cliente:**
-
-> [NOME], você já tem as informações do orçamento. Ficou alguma dúvida que eu possa esclarecer ou prefere combinar um retorno para depois?
-
-**Ação interna:** Não tratar silêncio como autorização e não iniciar a execução sem aceite.
-
 
 ## 06 / Acompanhamento e retomadas
 
@@ -811,57 +505,17 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Objetivo:** Registrar o próximo retorno; escolher a mensagem adequada à etapa, sem disparar todas.
 
-### 61. Confirmar recebimento do orçamento — /fm61
+### 39. Retomar uma proposta sem resposta — /fm39
 
-**Quando usar:** Primeira retomada, quando não há confirmação de recebimento.
-
-**Mensagem ao cliente:**
-
-> Olá, [NOME]! Passando para confirmar se você recebeu o orçamento da OS [OS]. Conseguiu abrir o arquivo ou prefere que eu envie o resumo por aqui?
-
-**Ação interna:** Usar na cadência combinada. Confirmar recebimento, sem repetir a cobrança de aprovação.
-
-### 62. Orçamento recebido, mas sem resposta — /fm62
-
-**Quando usar:** Cliente recebeu a proposta e não retornou.
+**Quando usar:** Cliente recebeu orçamento ou proposta e ainda não retornou.
 
 **Mensagem ao cliente:**
 
-> [NOME], ficou alguma dúvida sobre o orçamento do [EQUIPAMENTO]? Posso esclarecer o escopo, o prazo ou as condições para facilitar sua análise.
+> Olá, [NOME]! Conseguiu analisar a proposta de [SERVIÇO / PRODUTO]? Ficou alguma dúvida sobre os itens, o prazo ou as condições?
 
-**Ação interna:** Escolher apenas o ponto pertinente ao histórico. Se houver retorno combinado, respeitar essa data.
+**Ação interna:** Respeitar o retorno combinado. Se não houver resposta após as tentativas adequadas, usar o encerramento sem insistência.
 
-### 63. Retomar no horário combinado — /fm63
-
-**Quando usar:** Chegou o momento que o cliente pediu para conversar.
-
-**Mensagem ao cliente:**
-
-> Olá, [NOME]! Como combinamos, estou retornando sobre [ASSUNTO / OS]. Este é um bom momento para continuarmos?
-
-**Ação interna:** Registrar que o retorno foi realizado. Se o cliente estiver indisponível, combinar outra data.
-
-### 64. Enviar informação técnica solicitada — /fm64
-
-**Quando usar:** A resposta dependia de consulta à equipe.
-
-**Mensagem ao cliente:**
-
-> [NOME], confirmei com nossa equipe o ponto que você perguntou: [RESPOSTA VALIDADA]. Com essa informação, ficou mais claro como podemos seguir com [ASSUNTO]?
-
-**Ação interna:** Anotar quem validou a informação e vincular a resposta à solicitação correta.
-
-### 65. Disponibilidade real mudou — /fm65
-
-**Quando usar:** Houve mudança confirmada que afeta uma proposta aberta.
-
-**Mensagem ao cliente:**
-
-> [NOME], houve uma atualização na disponibilidade de [ITEM]: [SITUAÇÃO CONFIRMADA]. Estou te avisando porque isso afeta [IMPACTO]. Quer que eu confira a proposta atualizada para o seu caso?
-
-**Ação interna:** Usar apenas mudanças reais. Não criar escassez, reserva fictícia ou prazo artificial.
-
-### 66. Atraso ou indisponibilidade de peça — /fm66
+### 40. Atraso ou indisponibilidade de peça — /fm40
 
 **Quando usar:** Um fornecedor ou uma peça altera a programação.
 
@@ -871,17 +525,17 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Ação interna:** Avisar antes de o prazo vencer, quando possível. Não substituir peça ou aumentar custo sem aprovação aplicável.
 
-### 67. Atualizar serviço em andamento — /fm67
+### 41. Atualizar serviço em andamento — /fm41
 
 **Quando usar:** É o momento de retorno combinado durante a execução.
 
 **Mensagem ao cliente:**
 
-> [NOME], uma atualização da OS [OS]: concluímos [ETAPA REALIZADA] e estamos em [ETAPA ATUAL]. A previsão está [SITUAÇÃO CONFIRMADA]. O próximo retorno será [DATA / HORÁRIO].
+> [NOME], uma atualização da OS [OS]: concluímos [ETAPA REALIZADA] e estamos em [ETAPA ATUAL]. A previsão é [SITUAÇÃO CONFIRMADA]. Retorno novamente em [DATA / HORÁRIO].
 
 **Ação interna:** Checar o status com o técnico antes de responder. Não anunciar conclusão ou teste ainda não realizado.
 
-### 68. Revisar previsão de entrega — /fm68
+### 42. Revisar previsão de entrega — /fm42
 
 **Quando usar:** A previsão anterior não poderá ser mantida.
 
@@ -891,7 +545,7 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Ação interna:** Assumir a comunicação com clareza. Se não houver nova previsão, informar quando haverá a próxima atualização.
 
-### 69. Encaminhar uma dúvida de execução — /fm69
+### 43. Encaminhar uma dúvida de execução — /fm43
 
 **Quando usar:** O cliente faz uma pergunta que o atendimento não pode responder sozinho.
 
@@ -901,17 +555,17 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Ação interna:** Registrar a dúvida e o responsável. Retornar no prazo mesmo que seja necessário atualizar a previsão da resposta.
 
-### 70. Avisar que o equipamento está pronto — /fm70
+### 44. Avisar que o equipamento está pronto — /fm44
 
 **Quando usar:** A equipe validou a conclusão e a liberação aplicável.
 
 **Mensagem ao cliente:**
 
-> [NOME], o serviço do [EQUIPAMENTO], OS [OS], foi concluído. O valor total é [VALOR], com saldo de [SALDO CONFIRMADO], conforme combinado. Podemos organizar a retirada ou consultar as condições de entrega. Qual opção funciona para você?
+> [NOME], o serviço do [EQUIPAMENTO], OS [OS], foi concluído. O total é [VALOR], com saldo de [SALDO CONFIRMADO]. Você prefere combinar a retirada ou consultar a entrega?
 
 **Ação interna:** Conferir conclusão, verificações registradas, valores e condições antes do envio. Não oferecer entrega gratuita sem autorização.
 
-### 71. Combinar retirada ou entrega — /fm71
+### 45. Combinar retirada ou entrega — /fm45
 
 **Quando usar:** Cliente já sabe que o equipamento está pronto.
 
@@ -921,7 +575,7 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Ação interna:** Confirmar endereço, contato, custo de transporte quando aplicável e quem receberá. Compartilhar apenas dados necessários.
 
-### 72. Equipamento pronto, mas não retirado — /fm72
+### 46. Equipamento pronto, mas não retirado — /fm46
 
 **Quando usar:** Cliente não retirou no momento combinado.
 
@@ -931,7 +585,7 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Ação interna:** Não ameaçar descarte ou criar taxa de armazenagem não combinada. Exceções devem ser tratadas pela gestão.
 
-### 73. Atualizar orçamento vencido — /fm73
+### 47. Atualizar orçamento vencido — /fm47
 
 **Quando usar:** Cliente retorna após a validade da proposta.
 
@@ -941,25 +595,15 @@ Acompanhar orçamento, execução e entrega sem deixar o cliente sem notícia.
 
 **Ação interna:** Não assumir que condições antigas continuam válidas; não elevar preço sem apresentar a revisão.
 
-### 74. Encerrar retomadas de orçamento — /fm74
+### 48. Encerrar retomadas sem insistência — /fm48
 
-**Quando usar:** Já houve tentativas adequadas e não há resposta.
-
-**Mensagem ao cliente:**
-
-> [NOME], vou encerrar os retornos sobre este orçamento por enquanto, para não insistir. Se quiser retomar, pode nos chamar com a OS [OS] e conferimos as condições atuais. Obrigado pelo contato.
-
-**Ação interna:** Arquivar a oportunidade como sem decisão, sem marcar como aprovada. Se o equipamento estiver na oficina, tratar a devolução separadamente.
-
-### 75. Silêncio desde o primeiro contato — /fm75
-
-**Quando usar:** Cliente não respondeu à pergunta inicial.
+**Quando usar:** Não houve resposta após contatos adequados ou o cliente não quer continuar.
 
 **Mensagem ao cliente:**
 
-> Olá! Passando uma última vez para saber se ainda precisa de ajuda com [ASSUNTO, SE CONHECIDO]. Se preferir falar em outro momento, pode nos chamar por aqui.
+> [NOME], vou encerrar os retornos por enquanto, para não insistir. Se quiser retomar, pode nos chamar e conferimos as condições atuais. Obrigado pelo contato.
 
-**Ação interna:** Não insistir se não houver resposta. Não colocar o contato automaticamente em lista de promoções.
+**Ação interna:** Não tratar silêncio como aprovação. Se o equipamento estiver na oficina, combinar a devolução separadamente.
 
 
 ## 07 / Reativação de clientes
@@ -968,17 +612,17 @@ Retomar relações com contexto e permissão.
 
 **Objetivo:** Oferecer ajuda relacionada ao histórico, sem inventar uma nova necessidade.
 
-### 76. Retomar pelo histórico do equipamento — /fm76
+### 49. Retomar pelo histórico do equipamento — /fm49
 
 **Quando usar:** Há relação anterior e um motivo pertinente para contato.
 
 **Mensagem ao cliente:**
 
-> Olá, [NOME]! Aqui é [ATENDENTE], da Ferreira Motores. No último atendimento, acompanhamos [EQUIPAMENTO / OS]. Está tudo bem com o funcionamento ou surgiu alguma necessidade em que possamos ajudar?
+> Olá, [NOME]! Aqui é [ATENDENTE], da Ferreira Motores. Está tudo bem com o [EQUIPAMENTO] do último atendimento ou surgiu alguma necessidade em que possamos ajudar?
 
 **Ação interna:** Conferir o histórico. Não afirmar que o equipamento precisa de novo serviço sem avaliação.
 
-### 77. Revisão previamente combinada — /fm77
+### 50. Revisão previamente combinada — /fm50
 
 **Quando usar:** Existe uma data ou condição de acompanhamento registrada.
 
@@ -988,37 +632,7 @@ Retomar relações com contexto e permissão.
 
 **Ação interna:** Não inventar periodicidade de manutenção. Seguir indicação técnica, fabricante e acordo documentado.
 
-### 78. Reposição de peça ou produto — /fm78
-
-**Quando usar:** O histórico indica uma consulta recorrente real.
-
-**Mensagem ao cliente:**
-
-> Olá, [NOME]! Você havia consultado [ITEM / REFERÊNCIA]. Se essa necessidade continuar, posso verificar a disponibilidade atual. Quer que eu faça essa consulta?
-
-**Ação interna:** Verificar o contexto antes de contatar. Não presumir autorização para reservar ou faturar.
-
-### 79. Planejamento de manutenção — /fm79
-
-**Quando usar:** Cliente demonstrou interesse em programar a manutenção.
-
-**Mensagem ao cliente:**
-
-> [NOME], se estiver planejando uma parada para manutenção, podemos conversar sobre os equipamentos envolvidos e consultar a agenda. Existe algum período que você pretende avaliar?
-
-**Ação interna:** Não prometer economia ou redução de falhas em percentual. Dimensionar o serviço após entender o caso.
-
-### 80. Atualizar o responsável na empresa — /fm80
-
-**Quando usar:** O contato anterior mudou de função ou orientou outro responsável.
-
-**Mensagem ao cliente:**
-
-> Olá! Aqui é [ATENDENTE], da Ferreira Motores. Gostaria de confirmar quem acompanha as demandas de [EQUIPAMENTO / ASSUNTO] na empresa, para encaminharmos somente as informações pertinentes. Com quem podemos tratar?
-
-**Ação interna:** Não expor valores, documentos ou histórico detalhado antes de confirmar o destinatário autorizado.
-
-### 81. Avisar sobre item solicitado anteriormente — /fm81
+### 51. Avisar sobre item solicitado anteriormente — /fm51
 
 **Quando usar:** Um produto antes indisponível teve disponibilidade confirmada.
 
@@ -1028,7 +642,7 @@ Retomar relações com contexto e permissão.
 
 **Ação interna:** Enviar apenas a quem solicitou o aviso ou autorizou esse tipo de contato; não inventar exclusividade.
 
-### 82. Pedir permissão para próximos contatos — /fm82
+### 52. Pedir permissão para próximos contatos — /fm52
 
 **Quando usar:** É necessário combinar como manter o relacionamento.
 
@@ -1038,16 +652,6 @@ Retomar relações com contexto e permissão.
 
 **Ação interna:** Registrar a preferência e respeitá-la. Assuntos de uma OS ativa devem continuar sendo comunicados normalmente.
 
-### 83. Retomar após uma reclamação — /fm83
-
-**Quando usar:** A gestão definiu uma ação concreta para o caso anterior.
-
-**Mensagem ao cliente:**
-
-> [NOME], estou retornando sobre a situação registrada no atendimento [OS / REFERÊNCIA]. A ação definida foi [AÇÃO VALIDADA]. Gostaria de ouvir se ainda ficou algum ponto pendente para você.
-
-**Ação interna:** Focar na solução do problema, sem condicionar atendimento à retirada de uma reclamação ou avaliação.
-
 
 ## 08 / Pós-venda e relacionamento
 
@@ -1055,17 +659,17 @@ Conferir a entrega, ouvir o cliente e manter um canal de atendimento.
 
 **Objetivo:** Encerrar a OS com registro e acompanhar o uso quando isso tiver sido combinado.
 
-### 84. Confirmar entrega e encerramento — /fm84
+### 53. Confirmar entrega e encerramento — /fm53
 
 **Quando usar:** O equipamento ou produto foi efetivamente entregue.
 
 **Mensagem ao cliente:**
 
-> [NOME], registramos a entrega do [EQUIPAMENTO / PRODUTO], referente à OS [OS], em [DATA]. Seguem [RESUMO / DOCUMENTOS / ORIENTAÇÕES ENTREGUES]. Obrigado pela confiança na Ferreira Motores.
+> [NOME], registramos a entrega do [EQUIPAMENTO / PRODUTO], OS [OS], em [DATA]. Seguem [RESUMO / DOCUMENTOS / ORIENTAÇÕES]. Obrigado pela confiança na Ferreira Motores.
 
 **Ação interna:** Conferir recebedor, acessórios, documentos e situação financeira. Não declarar quitação sem confirmação do recebimento.
 
-### 85. Conferir funcionamento após a entrega — /fm85
+### 54. Conferir funcionamento após a entrega — /fm54
 
 **Quando usar:** Houve combinação de contato após o uso.
 
@@ -1075,7 +679,7 @@ Conferir a entrega, ouvir o cliente e manter um canal de atendimento.
 
 **Ação interna:** Se houver problema, abrir acompanhamento e encaminhar ao técnico. Não pedir que o cliente faça testes perigosos.
 
-### 86. Pedir retorno sobre o atendimento — /fm86
+### 55. Pedir retorno sobre o atendimento — /fm55
 
 **Quando usar:** O atendimento foi concluído e é adequado ouvir o cliente.
 
@@ -1085,7 +689,7 @@ Conferir a entrega, ouvir o cliente e manter um canal de atendimento.
 
 **Ação interna:** Ouvir sem rebater. Registrar melhorias e encaminhar problemas concretos para acompanhamento.
 
-### 87. Convidar para uma avaliação no Google — /fm87
+### 56. Convidar para uma avaliação no Google — /fm56
 
 **Quando usar:** Após um atendimento concluído, de forma neutra.
 
@@ -1095,45 +699,15 @@ Conferir a entrega, ouvir o cliente e manter um canal de atendimento.
 
 **Ação interna:** Convidar de forma neutra, sem exigir nota, oferecer benefício ou selecionar apenas clientes satisfeitos. Usar link oficial conferido.
 
-### 88. Pedir uma indicação sem pressão — /fm88
-
-**Quando usar:** Há contexto adequado para agradecer a relação.
-
-**Mensagem ao cliente:**
-
-> [NOME], obrigado pela confiança. Se alguém da sua empresa ou da sua rede precisar de manutenção de motores, bombas ou motobombas, pode compartilhar nosso contato: (31) 99423-1451.
-
-**Ação interna:** Não exigir indicação nem oferecer recompensa que não exista. Não pedir dados pessoais de terceiros.
-
-### 89. Lembrar uma orientação combinada — /fm89
-
-**Quando usar:** Existe uma recomendação específica registrada para o equipamento.
-
-**Mensagem ao cliente:**
-
-> [NOME], reforçando a orientação entregue com o [EQUIPAMENTO]: [ORIENTAÇÃO VALIDADA]. Se surgir alguma dúvida sobre essa informação, fale com nossa equipe antes de fazer ajustes por conta própria.
-
-**Ação interna:** Usar recomendação do técnico ou do fabricante para o caso. Não criar instruções genéricas de instalação elétrica.
-
-### 90. Cliente relata dúvida de uso — /fm90
+### 57. Dúvida ou problema após a entrega — /fm57
 
 **Quando usar:** Dúvida após a entrega, sem diagnóstico confirmado.
 
 **Mensagem ao cliente:**
 
-> [NOME], vamos te orientar. O que você percebeu no funcionamento do [EQUIPAMENTO]? Vou registrar seu relato e confirmar o próximo passo com a equipe técnica.
+> [NOME], vamos te orientar. O que você percebeu no funcionamento do [EQUIPAMENTO]? Vou registrar o relato e confirmar o próximo passo com a equipe técnica.
 
 **Ação interna:** Se houver risco aparente, orientar a suspensão do uso e o acionamento de profissional habilitado; não conduzir reparo remoto improvisado.
-
-### 91. Cliente recorrente — /fm91
-
-**Quando usar:** Há um novo contato de quem já foi atendido.
-
-**Mensagem ao cliente:**
-
-> Olá, [NOME]! Obrigado por contar novamente com a Ferreira Motores. Vou consultar seu histórico para facilitar o atendimento. A demanda agora é para o mesmo equipamento ou para outro?
-
-**Ação interna:** Não prometer fila preferencial, desconto ou condição especial sem autorização.
 
 
 ## 09 / Situações especiais
@@ -1142,7 +716,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Objetivo:** Proteger a confiança do cliente e levar decisões fora da autonomia ao responsável.
 
-### 92. Pedido de desconto — /fm92
+### 58. Pedido de desconto — /fm58
 
 **Quando usar:** Cliente solicita redução de valor.
 
@@ -1152,7 +726,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Ação interna:** Submeter exceção à gestão. Nunca trocar desconto por retirada de etapa técnica essencial.
 
-### 93. Pedido de troca, devolução ou garantia — /fm93
+### 59. Pedido de troca, devolução ou garantia — /fm59
 
 **Quando usar:** Cliente pede revisão de um atendimento ou compra.
 
@@ -1162,7 +736,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Ação interna:** Não negar automaticamente direitos nem prometer troca ou cobertura antes de analisar. Encaminhar ao responsável definido.
 
-### 94. Cliente insatisfeito ou reclamação — /fm94
+### 60. Cliente insatisfeito ou reclamação — /fm60
 
 **Quando usar:** Há uma reclamação em andamento.
 
@@ -1172,7 +746,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Ação interna:** Ouvir, registrar fatos, assumir o acompanhamento e evitar discussão. Não culpar o cliente antes da apuração.
 
-### 95. Feriado ou alteração excepcional de horário — /fm95
+### 61. Feriado ou alteração excepcional de horário — /fm61
 
 **Quando usar:** A gestão confirmou uma mudança na rotina.
 
@@ -1182,7 +756,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Ação interna:** Atualizar mensagens automáticas e canais pertinentes; retirar o aviso quando o período terminar.
 
-### 96. Urgência com possível risco no equipamento — /fm96
+### 62. Urgência com possível risco no equipamento — /fm62
 
 **Quando usar:** Cliente relata fumaça, cheiro de queimado ou outro sinal de risco.
 
@@ -1192,7 +766,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Ação interna:** Não prometer plantão. Priorizar o encaminhamento seguro e registrar o relato sem diagnóstico à distância.
 
-### 97. Troca de atendente — /fm97
+### 63. Troca de atendente — /fm63
 
 **Quando usar:** Outro membro do time dará continuidade.
 
@@ -1202,7 +776,7 @@ Tratar exceções com calma, registro e encaminhamento.
 
 **Ação interna:** A pessoa que assume deve ler o histórico e confirmar o prazo de retorno; não obrigar o cliente a recomeçar toda a explicação.
 
-### 98. Pagamento pendente — /fm98
+### 64. Pagamento pendente — /fm64
 
 **Quando usar:** A conferência financeira confirmou uma pendência.
 
@@ -1211,16 +785,6 @@ Tratar exceções com calma, registro e encaminhamento.
 > Olá, [NOME]. Na conferência da OS [OS], consta um saldo de [SALDO], com vencimento combinado em [DATA]. Se já pagou, pode enviar o comprovante para conferirmos. Caso contrário, como podemos organizar esse acerto?
 
 **Ação interna:** Conferir a pendência antes da cobrança, usar o canal privado e manter respeito. Encaminhar renegociação à gestão.
-
-### 99. Pedido iniciado, mas não concluído — /fm99
-
-**Quando usar:** O cliente consultou um item e parou antes da confirmação.
-
-**Mensagem ao cliente:**
-
-> [NOME], sua consulta de [PRODUTO / REFERÊNCIA] ficou sem confirmação. Você ainda precisa desse item ou prefere encerrar por enquanto? Se quiser continuar, verifico as condições e a disponibilidade atualizadas.
-
-**Ação interna:** Não gerar pedido, cobrança, reserva ou envio apenas com base na consulta. Encerrar contatos se o cliente não quiser seguir.
 
 
 ## Clareza que ajuda a fechar

@@ -234,3 +234,12 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Mensagens com contexto de uso, texto ao cliente e ação interna; atalhos sugeridos /fm01–/fm99. Regras comerciais não confirmadas continuam variáveis, sem inventar preços, descontos, taxas, garantia ou prazos. Cadência de contato identificada como sugestão operacional.
 - Logo completo original e identidade amarela/preta/branca preservados. Validado PDF final: 99 mensagens e ações completas na mesma página, 19 seções de índice/navegação, 38 links internos com destinos válidos, idioma pt-BR, texto selecionável e nenhum texto fora dos limites da página. Revisão visual de capa, sumário, fundamentos, mensagens e apêndices.
 - PDF e versão em Markdown salvos em documentos/atendimento/; READMEs apontam para o manual como material principal. A ficha de conclusão anterior foi preservada como complemento. Estes materiais não integram o ZIP da Hostinger nem alteram o site.
+
+## Protocolo resumido — versão 1.1
+
+- A pedido do usuário, consolidadas situações parecidas: 99 → 64 mensagens e 49 → 34 páginas, preservando as nove etapas de atendimento e a identidade visual.
+- Excluído o trecho “O que foi adaptado do material de referência”, incluindo os parágrafos seguintes sobre o PDF original e as 99 situações.
+- Retirado integralmente o conteúdo das páginas 4, 5 e 8 da versão 1.0: “Linguagem padrão e conversão”, “Papéis, autonomia e registro” e “Organização, retornos e WhatsApp Business”. A numeração de páginas da versão nova foi recalculada.
+- Consolidadas principalmente variações de primeiro contato, preço/objeções e retomadas; encurtadas mensagens selecionadas. Atalhos renumerados de /fm01 a /fm64 e aviso incluído no guia para a equipe atualizar os já cadastrados.
+- PDF e Markdown sincronizados. Verificados 64 textos completos junto das ações internas, 16 seções com índice/destinos válidos, ausência dos trechos removidos e nenhum texto fora da página; revisão visual da capa, sumário, introdução e mensagens.
+- Atualização somente dos materiais de atendimento na readme-edits; site, ZIP de hospedagem, ficha complementar de conclusão e main preservados.
