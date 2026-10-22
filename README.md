@@ -14,10 +14,15 @@ brasileiro e endereço oficial informado: https://www.ferreiramotores.com.br/.
 - `.agents/skills/`: instruções de desenvolvimento; não fazem parte da publicação.
 - `AGENTS.md` e `memoria/README.md`: regras do projeto e decisões registradas.
 
-## Documento de conclusão do serviço
+## Protocolo de atendimento do time
 
-[PDF preenchível para enviar ao cliente](documentos/atendimento/Ferreira-Motores-Conclusao-de-Servico.pdf)
-com [instruções de preenchimento](documentos/atendimento/README.md).
+[Manual interno em PDF — 49 páginas e 99 mensagens](documentos/atendimento/Protocolo-Geral-de-Atendimento-Ferreira-Motores.pdf),
+com [versão em texto](documentos/atendimento/Protocolo-Geral-de-Atendimento-Ferreira-Motores.md)
+e [guia de uso](documentos/atendimento/README.md).
+
+Abrange atendimento geral, triagem, orçamento, aprovação, execução, entrega,
+retomadas e pós-venda. O [modelo preenchível de conclusão para o cliente](documentos/atendimento/Ferreira-Motores-Conclusao-de-Servico.pdf)
+permanece como material complementar.
 
 ## Logo mantido no favicon e nova imagem de apresentação
 
