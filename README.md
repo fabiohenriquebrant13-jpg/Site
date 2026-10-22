@@ -14,6 +14,11 @@ brasileiro e endereço oficial informado: https://www.ferreiramotores.com.br/.
 - `.agents/skills/`: instruções de desenvolvimento; não fazem parte da publicação.
 - `AGENTS.md` e `memoria/README.md`: regras do projeto e decisões registradas.
 
+## Documento de conclusão do serviço
+
+[PDF preenchível para enviar ao cliente](documentos/atendimento/Ferreira-Motores-Conclusao-de-Servico.pdf)
+com [instruções de preenchimento](documentos/atendimento/README.md).
+
 ## Logo mantido no favicon e nova imagem de apresentação
 
 - A pedido do usuário, o favicon continua com o **logo completo original**.
