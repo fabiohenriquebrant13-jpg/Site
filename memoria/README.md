@@ -243,3 +243,11 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Consolidadas principalmente variações de primeiro contato, preço/objeções e retomadas; encurtadas mensagens selecionadas. Atalhos renumerados de /fm01 a /fm64 e aviso incluído no guia para a equipe atualizar os já cadastrados.
 - PDF e Markdown sincronizados. Verificados 64 textos completos junto das ações internas, 16 seções com índice/destinos válidos, ausência dos trechos removidos e nenhum texto fora da página; revisão visual da capa, sumário, introdução e mensagens.
 - Atualização somente dos materiais de atendimento na readme-edits; site, ZIP de hospedagem, ficha complementar de conclusão e main preservados.
+
+## Protocolo versão 1.2 — identificação do cliente e avaliações
+
+- Primeiro campo da tabela de variáveis alterado para “[NOME] — Nome do cliente”, sem nome de atendente. A referência a atendente na mensagem de reativação também foi substituída pela identificação da empresa, para manter a consistência.
+- Retirados o tópico completo “Modelo de resumo antes do aceite”, a mensagem “Apresentação do atendente” e a antiga mensagem 63, “Troca de atendente”. Total atualizado: 62 mensagens em 34 páginas; atalhos renumerados de /fm01 a /fm62.
+- Link informado pelo usuário: https://g.page/r/CUYfqXE43vgAEAE/review . Inserido como link clicável no quadro de variáveis e no convite à avaliação, agora /fm55. Destinos dos links no PDF conferidos, sem publicação de avaliação ou alegação de validação externa do endereço.
+- PDF e Markdown sincronizados; índice, numeração, 62 textos completos, remoções e ausência de texto fora da página verificados. As remoções das antigas páginas 4, 5 e 8 continuam preservadas. Mantida a identidade visual.
+- Atualização dos materiais de atendimento na readme-edits; sem alteração do site, da ficha complementar de conclusão, do pacote Hostinger ou da main.

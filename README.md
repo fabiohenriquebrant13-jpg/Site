@@ -16,7 +16,7 @@ brasileiro e endereço oficial informado: https://www.ferreiramotores.com.br/.
 
 ## Protocolo de atendimento do time
 
-[Manual interno em PDF — 34 páginas e 64 mensagens](documentos/atendimento/Protocolo-Geral-de-Atendimento-Ferreira-Motores.pdf),
+[Manual interno em PDF — 34 páginas e 62 mensagens](documentos/atendimento/Protocolo-Geral-de-Atendimento-Ferreira-Motores.pdf),
 com [versão em texto](documentos/atendimento/Protocolo-Geral-de-Atendimento-Ferreira-Motores.md)
 e [guia de uso](documentos/atendimento/README.md).
 
