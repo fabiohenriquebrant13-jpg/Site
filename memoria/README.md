@@ -251,3 +251,11 @@ posicionamento no Google nem aprovação de versões posteriores.
 - Link informado pelo usuário: https://g.page/r/CUYfqXE43vgAEAE/review . Inserido como link clicável no quadro de variáveis e no convite à avaliação, agora /fm55. Destinos dos links no PDF conferidos, sem publicação de avaliação ou alegação de validação externa do endereço.
 - PDF e Markdown sincronizados; índice, numeração, 62 textos completos, remoções e ausência de texto fora da página verificados. As remoções das antigas páginas 4, 5 e 8 continuam preservadas. Mantida a identidade visual.
 - Atualização dos materiais de atendimento na readme-edits; sem alteração do site, da ficha complementar de conclusão, do pacote Hostinger ou da main.
+
+## Protocolo versão 1.3 — remoções finais
+
+- Removidas integralmente as páginas 33 e 34 da versão 1.2: “Checklists de abertura e encerramento” e “Gestão da rotina e dados oficiais”, com todo seu conteúdo.
+- Na página 31, removida somente a seção “Encaminhar à pessoa certa” e seus itens; preservado o restante de “Clareza que ajuda a fechar”. Página “Frases para substituir na rotina” preservada.
+- Documento final com 32 páginas, 62 mensagens e 14 seções de navegação. Sumário e versão atualizados; nome do cliente, link Google clicável e todas as remoções anteriores preservados.
+- Verificados os 62 roteiros completos e suas ações, destinos do índice, dois links Google, ausência dos tópicos removidos e dos transbordamentos de texto. Revisão visual das páginas finais 31 e 32.
+- PDF e Markdown sincronizados na readme-edits. Site, main, ficha complementar e ZIP de hospedagem preservados.

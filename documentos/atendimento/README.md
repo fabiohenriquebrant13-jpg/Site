@@ -1,11 +1,11 @@
 # Protocolo geral de atendimento — Ferreira Motores
 
 Material principal para **uso interno do time**, voltado à rotina de oficina e
-venda de motores, bombas, motobombas e peças. Versão 1.2, com mensagens consolidadas
+venda de motores, bombas, motobombas e peças. Versão 1.3, com mensagens consolidadas
 para reduzir variações de uma mesma situação. As mensagens usam o nome do cliente,
 sem solicitar o nome do atendente.
 
-- [Manual em PDF — 34 páginas](Protocolo-Geral-de-Atendimento-Ferreira-Motores.pdf).
+- [Manual em PDF — 32 páginas](Protocolo-Geral-de-Atendimento-Ferreira-Motores.pdf).
 - [Versão em texto para consulta e futuras adaptações](Protocolo-Geral-de-Atendimento-Ferreira-Motores.md).
 
 ## Conteúdo
@@ -13,8 +13,8 @@ sem solicitar o nome do atendente.
 62 mensagens em nove etapas: primeiro contato, triagem, diagnóstico e orçamento,
 dúvidas e objeções, aprovação, acompanhamento e retomadas, reativação, pós-venda
 e situações especiais. Cada mensagem tem contexto de uso, texto para o cliente
-e ação interna. Inclui sumário clicável, fluxo operacional, variáveis, checklists
-e indicadores definidos sem resultados inventados.
+e ação interna. Inclui sumário clicável, fluxo operacional, variáveis e sugestões
+de frases para a rotina.
 
 ## Como usar com a equipe
 
@@ -31,7 +31,7 @@ Os atalhos foram renumerados de /fm01 a /fm62. Se a equipe já cadastrou respost
 rápidas da versão anterior, confira os textos e os números antes de atualizar.
 
 Identidade visual: logo completo original, amarelo, preto e branco. Arquivo com
-texto selecionável, 16 seções de navegação e 62 mensagens completas, conferidas
+texto selecionável, 14 seções de navegação e 62 mensagens completas, conferidas
 na versão final. A versão em texto permite revisar o conteúdo; uma alteração nela
 não atualiza automaticamente o PDF.
 

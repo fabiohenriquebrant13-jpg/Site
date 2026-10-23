@@ -1,6 +1,6 @@
 # Protocolo geral de atendimento — Ferreira Motores
 WhatsApp, balcão e acompanhamento do serviço
-Versão 1.2 · Uso interno
+Versão 1.3 · Uso interno
 
 **62 mensagens adaptadas ao atendimento da Ferreira Motores.**
 
@@ -771,13 +771,6 @@ Use informação verificável para ajudar o cliente a decidir. Não é necessár
 | Ajuda útil | Informação técnica validada que esclareça a necessidade, sem criar obrigação de compra. |
 | Próximo passo claro | Ação possível, aceite explícito e retorno combinado. |
 
-### Encaminhar à pessoa certa
-
-- Dúvida técnica, risco no uso, incompatibilidade ou mudança de escopo: responsável técnico.
-- Desconto, parcelamento fora da regra, exceção de transporte ou reserva: gestão/comercial.
-- Cobrança divergente ou recebimento não localizado: responsável financeiro.
-- Reclamação, garantia, devolução ou conflito: responsável definido pela gestão, com continuidade do atendimento.
-
 
 ## Frases para substituir na rotina
 
@@ -794,60 +787,3 @@ Use informação verificável para ajudar o cliente a decidir. Não é necessár
 | “Se avaliar com 5 estrelas...” | “Se quiser, compartilhe sua experiência no nosso link oficial de avaliação.” |
 
 Expressões de cordialidade podem ser usadas naturalmente. O problema é deixar a conversa sem informação, prometer o que não foi validado ou insistir depois de uma recusa.
-
-
-## Checklists de abertura e encerramento
-
-### Ao começar o turno
-
-- Conferir quem responde por atendimento, técnica e decisões comerciais naquele período.
-- Revisar contatos sem resposta, retornos agendados, serviços atrasados e equipamentos prontos.
-- Conferir alterações reais de estoque, agenda e horário antes de responder.
-- Desativar mensagens de ausência que já não correspondam à rotina.
-
-### Antes de enviar uma proposta ou confirmação
-
-- Cliente, equipamento e OS estão corretos; não há campo entre colchetes sem preencher.
-- Diagnóstico, compatibilidade e escopo foram validados quando necessários.
-- Valor total, condições, previsão e validade estão claros; não há custo oculto.
-- O próximo passo está definido e cabe na autonomia de quem responde.
-
-### Antes de concluir a OS
-
-- Serviço aprovado executado e conclusão confirmada pela equipe responsável.
-- Verificações e orientações registradas; acessórios e documentos conferidos.
-- Valor pago e saldo conferidos; entrega ou retirada combinada.
-- Equipamento efetivamente entregue ao recebedor correto, com registro pertinente.
-- Pós-venda programado se combinado; problemas em aberto continuam acompanhados.
-
-### Ao encerrar ou passar o turno
-
-Atualizar a etiqueta, registrar o último combinado e deixar responsável e data para a próxima ação. Uma conversa sem responsável e sem próximo passo é uma pendência que pode ser esquecida.
-
-
-## Gestão da rotina e dados oficiais
-
-### Indicadores para acompanhar, sem inventar resultados
-
-| Indicador | Como acompanhar |
-| --- | --- |
-| Primeira resposta humana | Tempo até o primeiro retorno de uma pessoa; separar horário comercial e mensagens fora dele. Resposta automática não conta como resposta humana. |
-| Orçamentos aprovados | 100 × aprovados ÷ (aprovados + recusados), na mesma coorte de propostas. Acompanhar pendentes à parte; se não houver decisões, marcar não calculável. |
-| Retornos cumpridos | 100 × retornos realizados no prazo ÷ retornos que venceram no período. Sem retornos vencidos, marcar não calculável. |
-| Pendências e retrabalho | Contar OS atrasadas, equipamentos prontos não retirados, reclamações e retornos técnicos por motivo. Investigar causas antes de atribuir culpa. |
-
-A gestão define metas e periodicidade após conhecer a rotina. Este manual não apresenta taxas de conversão, notas de desempenho ou resultados medidos da empresa.
-
-### Canais conferidos no projeto
-
-Ferreira Motores • WhatsApp: (31) 99423-1451 • Telefone da loja: (31) 3168-2083
-Av. Raul Teixeira da Costa Sobrinho, 1618, Adeodato, Santa Luzia/MG • CEP 33010-360
-Site: www.ferreiramotores.com.br • Instagram: @ferreiramotoresmg
-
-Horário informado no site: segunda a sexta, 8h às 17h; sábado, 9h às 16h; domingo, fechado. Conferir mudanças de rotina e avisos de feriado antes de configurar mensagens automáticas.
-
-### Manutenção deste material
-
-A gestão mantém atualizados os canais, a divisão de responsabilidades e as condições comerciais. Ao alterar um padrão, comunicar o time e atualizar as respostas rápidas cadastradas. Guardar somente o modelo deste manual no repositório; registros de clientes e OS ficam nos controles próprios da empresa.
-
-> O padrão é simples: entender, conferir, explicar, combinar, registrar e retornar.
